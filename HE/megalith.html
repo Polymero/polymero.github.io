@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en-NL">
+
+<head>
+
+<title>CS2</title>
+<link rel="shortcut icon" href="../img/favicon.png">
+<link rel="stylesheet" href="../Styles.css">
+
+<style>
+.header {
+  background-image: url("../img/puzzles/HE_banner_inv.png");
+}
+.side {
+  max-width: 0px;
+}
+td {
+  border: 1px dotted black;
+  padding-left: 12px;
+  padding-right: 11px;
+  padding-top: 4px;
+}
+</style>
+
+</head>
+
+<body>
+
+  <div class="header">
+  <h1>&nbsp;</h1>
+  </div>
+
+  <div class="navbar">
+    <a href="./overview.html" class="active">Overview</a>
+  </div>
+
+<div class="row">
+  <div class="side" style="background:#ddd;">
+
+  </div>
+
+  <div class="main">
+
+    <h1 style="color:#180040"><span style="color:#c03400">CS</span>2 - <span style="color:#c03400">R</span>isky <span style="color:#c03400">C</span>ommute</h1>
+
+    <p>
+      Your daily trips through hyperspace are not without risk.
+      We will provide you with up-to-date hyperspace maps on a daily basis.<br>
+      On these maps, every segment of hyperspace is assigned a danger level, indicating the number of dangerous segments around it.
+      <br><br>
+      Given the following hyperspace map,<br>
+      what is the safest (lowest sum of passing danger) route from one blue end to the other without passing through a dangerous segment?
+      <br><br>
+    </p>
+
+    <table style="border-spacing:0px;font-size:20pt;">
+      <tbody>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>4</td>
+    <td>5</td>
+    <td>3</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>4</td>
+    <td>3</td>
+    <td>6</td>
+    <td>2</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>5</td>
+    <td>5</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>1</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>1</td>
+    <td>4</td>
+    <td>2</td>
+    <td>5</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>5</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>4</td>
+    <td>5</td>
+    <td>3</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    <td>5</td>
+    <td>5</td>
+    <td>4</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>3</td>
+    <td>4</td>
+    <td>3</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>2</td>
+    <td>0</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>3</td>
+    <td>0</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>2</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>6</td>
+    <td>4</td>
+    <td>5</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>3</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>3</td>
+    <td>4</td>
+    <td>1</td>
+    <td>0</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>6</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>3</td>
+    <td>4</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="background-color:blue;">&emsp;</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>4</td>
+    <td>5</td>
+    <td>5</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td style="background-color:blue;">&emsp;</td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>3</td>
+    <td>1</td>
+    <td>0</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>2</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    <td>5</td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>5</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td style="border:0px;"></td>
+  </tr>
+  <tr>
+    <td style="border:0px;"></td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td style="border:0px;"></td>
+  </tr>
+</tbody>
+</table>
+
+  </div>
+
+</div>
+
+<div class="footer">
+  <!-- <img src="../img/puzzles/825620.png" style="width:80%;"> -->
+</div>
+
+</body>
+
+</html>
