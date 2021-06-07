@@ -1,0 +1,88 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+      fr      : &FR       À propos
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /about.html
+
+sidebar-home:
+  - title:        <i class="fas fa-user-astronaut"></i>
+    children:
+        - title:  About Me
+          url:    /about.html
+  - title:        <i class="fas fa-rocket"></i> Astrophysics
+    children:
+        - title:  About
+          url:    /
+        - title:  BSc Project
+          url:    /
+        - title:  MSc Project
+          url:    /
+  - title:        <i class="fas fa-flag"></i> CTF - Cryptography
+    children:
+        - title:  About
+          url:    /
+        - title:  Write-ups 2021
+          url:    /
+        - title:  My Challenges
+          url:    /
+  - title:        <i class="fas fa-scroll"></i> Linguistics
+    children:
+        - title:  About
+          url:    /
+        - title:  Language Evolution
+          url:    /
+        - title:  Iskélis
+          url:    /
+        - title:  Hláhu
+          url:    /
+  - title:        <i class="fas fa-puzzle-piece"></i> Puzzle Series
+    children:
+        - title:  Hyperspatial Engineering
+          url:    /
+        - title:  Mysteries of Kumaon
+          url:    /
