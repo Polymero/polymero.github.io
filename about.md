@@ -13,3 +13,5 @@ aside:
     <img class="image"  src="assets/rip.png"/>
   </div>
 </div>
+
+Astro boi lost in the universe of crypto.

@@ -57,32 +57,46 @@ sidebar-home:
   - title:        <i class="fas fa-rocket"></i> Astrophysics
     children:
         - title:  About
-          url:    /
+          url:    /AST/about.html
         - title:  BSc Project
-          url:    /
+          url:    /404.html
         - title:  MSc Project
-          url:    /
+          url:    /404.html
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
     children:
         - title:  About
-          url:    /
+          url:    /CTF/about.html
         - title:  Write-ups 2021
-          url:    /
+          url:    /CTF/WU2021.html
         - title:  My Challenges
-          url:    /
+          url:    /404.html
   - title:        <i class="fas fa-scroll"></i> Linguistics
     children:
         - title:  About
-          url:    /
+          url:    /LIN/about.html
         - title:  Language Evolution
-          url:    /
-        - title:  Iskélis
-          url:    /
-        - title:  Hláhu
-          url:    /
+          url:    /404.html
+        - title:  Iskélis (Ischéli)
+          url:    /404.html
+        - title:  Hláhu (Fauja)
+          url:    /404.html
   - title:        <i class="fas fa-puzzle-piece"></i> Puzzle Series
     children:
         - title:  Hyperspatial Engineering
-          url:    /
+          url:    /404.html
         - title:  Mysteries of Kumaon
-          url:    /
+          url:    /404.html
+
+sidebar-ctf:
+  - title:        <i class="fas fa-flag"></i> CTF - Cryptography
+    children:
+      - title:    About
+        url:      /CTF/about.html
+  - title:        Write-ups
+    children:
+      - title:    Overview 2021
+        url:      /CTF/overview-2021.html
+  - title:        My Challenges
+    children:
+      - title:    Overview
+        url:      /CTF/my-chall-overview.html
