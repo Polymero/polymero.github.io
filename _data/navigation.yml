@@ -57,7 +57,7 @@ sidebar-home:
   - title:        <i class="fas fa-rocket"></i> Astrophysics
     children:
         - title:  About
-          url:    /AST/about.html
+          url:    /ast/about.html
         - title:  BSc Project
           url:    /404.html
         - title:  MSc Project
@@ -65,15 +65,15 @@ sidebar-home:
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
     children:
         - title:  About
-          url:    /CTF/about.html
+          url:    /ctf/about.html
         - title:  Write-ups 2021
-          url:    /CTF/WU2021.html
+          url:    /ctf/WU2021.html
         - title:  My Challenges
           url:    /404.html
   - title:        <i class="fas fa-scroll"></i> Linguistics
     children:
         - title:  About
-          url:    /LIN/about.html
+          url:    /lin/about.html
         - title:  Language Evolution
           url:    /404.html
         - title:  Iskélis (Ischéli)
@@ -91,12 +91,12 @@ sidebar-ctf:
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
     children:
       - title:    About
-        url:      /CTF/about.html
+        url:      /ctf/about.html
   - title:        Write-ups
     children:
       - title:    Overview 2021
-        url:      /CTF/overview-2021.html
+        url:      /ctf/overview-2021.html
   - title:        My Challenges
     children:
       - title:    Overview
-        url:      /CTF/my-chall-overview.html
+        url:      /ctf/my-chall-overview.html
