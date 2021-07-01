@@ -67,7 +67,7 @@ sidebar-home:
         - title:  About
           url:    /ctf/about.html
         - title:  Write-ups 2021
-          url:    /ctf/WU2021.html
+          url:    /ctf/overview-2021.html
         - title:  My Challenges
           url:    /404.html
   - title:        <i class="fas fa-scroll"></i> Linguistics
