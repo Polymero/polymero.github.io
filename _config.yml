@@ -38,7 +38,7 @@ author:
   name      : Sebastiaan Venendaal
   url       :
   avatar    : ./assets/bi.png # path or url of avatar image (square)
-  bio       : Who? me?
+  bio       : Who? Me?
   email     : sebastiaanvenendaal(at)gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -211,8 +211,8 @@ defaults:
       license: true
       aside:
         toc: true
-      show_edit_on_github: true
-      show_subscribe: true
+      show_edit_on_github: false
+      show_subscribe: false
       pageview: true
 
 
