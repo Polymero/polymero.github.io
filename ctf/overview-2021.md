@@ -6,14 +6,55 @@ aside:
   toc: False
 ---
 
-# Overview 2021
+Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. Feel free however to contact me about any of the challenges below.
+
+#### *UIUCTF 2021*
+-----
+- **Constructive Criticism** - Misc ? (?)
+		&#8250; Audio, signal processing
+- **Q-Rious Transmissions** - Misc ? (?)
+		&#8250; Quantum entanglement (with Python-Qiskit)
+
+#### *CryptoCTF 2021*
+-----
+- **Robert** - Crypto 194 (19)
+		&#8250; (inverse) Carmichael function
+
+#### *ImaginaryCTF 2021*
+-----
+- [Password Checker](./2021/07/30/ImaginaryCTF2021-Password-Checker.html) - Web 450 (15)
+		&#8250; Deobfuscated JavaScript, brute-force
+- [ZKPoD](./2021/07/29/ImaginaryCTF2021-ZKPoD.html) - Crypto 400 (19)
+		&#8250; Parity leak into LSB oracle
+- **Mazed** - Misc 225 (38)
+		&#8250; Maze, brute-force
+- **Off To The Races!** - Misc 275 (39)
+		&#8250; Regex, multi-threading vuln leads to check bypass
+- **Short Story** - Forensics 150 (39)
+		&#8250; Hex encoded into word lengths
+- **Primetime** - Crypto 300 (41)
+		&#8250;
+- **New Technology** - Crypto 300 (50)
+		&#8250; Number theory
+- **Roll it back** - Crypto 300 (58)
+		&#8250; Reversing
+- **Prisoner's Dilemma** - Misc 200 (63)
+		&#8250; Vim jail
+- **Cookie Stream** - Web 150 (86)
+		&#8250; AES CTR, bit flipping
+- **Lines** - Crypto 150 (128)
+		&#8250; Diffie-Hellman
+- **Rock Solid Algorithm** - Crypto 100 (149)
+		&#8250; RSA, small e, modular roots
+- **Flip Flops** - Crypto 100 (160)
+		&#8250; AES CBC, block flipping
 
 #### *San Diego CTF 2021*
 -----
 - **A Primed Hash Candidate** - Crypto 292 (21)
-        &#8250; Custom hash, math reverse
+    &#8250; Custom hash, math reverse
 - **Encrypted Communications** - Crypto 699 (6)
-		&#8250; AES-CBC, padding vuln, .strip vuln
+		&#8250; AES-CBC, padding vuln, .strip() vuln
 - [Desmos Pro](./2021/05/01/SanDiegoCTF-Desmos-Pro.html) - Reversing 799 (5)
 		&#8250; Math reverse
 
