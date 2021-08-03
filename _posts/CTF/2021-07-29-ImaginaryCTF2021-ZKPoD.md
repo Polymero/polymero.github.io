@@ -29,7 +29,7 @@ def sign(x):
     return r, s
 ```
 
-Mmh,this seems awfully similar to more common signature protocols, albeit with some interesting differences:
+Mmh, this seems awfully similar to more common signature protocols, albeit with some interesting differences:
 - In s, the random value 'k' is not inverted modulo 'p'.
 - In s, the hash value 'e' depends on 'r' instead of the actual message.
 - In s, there is no secret parameter present.
