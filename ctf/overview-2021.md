@@ -58,7 +58,7 @@ Feel free however to contact me about any of the challenges below.
 		&#8250; Number theory
 - **Roll it back** - Crypto 300 (58)
 		&#8250; Reversing
-- [Prisoner's Dilemma](./21/08/03/ImaginaryCTF2021-Prisoner's-Dilemma.html) - Misc 200 (63)
+- [Prisoner's Dilemma](./21/08/03/ImaginaryCTF2021-Prisoners-Dilemma.html) - Misc 200 (63)
 		&#8250; Vim jail
 - [Cookie Stream](./2021/08/03/ImaginaryCTF2021-Cookie-Stream.html) - Web 150 (86)
 		&#8250; AES CTR, bit flipping on cookies
