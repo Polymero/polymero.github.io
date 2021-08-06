@@ -18,6 +18,8 @@ Feel free however to contact me about any of the challenges below.
 		&#8250; Audio, signal processing
 - **Q-Rious Transmissions** - Misc 322 (23)
 		&#8250; Quantum entanglement (with Python-Qiskit)
+- **Capture the :flag:** - Forensics 311 (24)
+		&#8250; LSB steganography
 - **SUPER** - Forensics 371 (18)
     &#8250; Encrypted VHD containing a DOS EXE 
 
