@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 
 Web -- 450 pts (15 solves) -- Chall author: Zyphen
 
-An online 'password checker' with some (regex) obfuscated verification function. Running it through any online deobfuscator reveals the internal structure of the code. Some additional cleaning allows us to recover the restrictions on the input for us to get the flag. I chose to opt for brute-force (I like it rough) and to abuse the most ingenious invention of humankind, language.
+An online 'password checker' with some (regex) obfuscated verification function. Running it through any online deobfuscator reveals the internal structure of the code. Some additional cleaning allows us to recover the restrictions on the input for us to get the flag. I chose to opt for brute-force (I like it rough x/) and to abuse the most ingenious invention of humankind, language.
 
 <!--more-->
 

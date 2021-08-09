@@ -3,30 +3,52 @@ layout: page
 sidebar:
   nav: sidebar-ctf
 aside:
-  toc: False
+  toc: True
+title: Overview 2021
 ---
 
-Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. Feel free however to contact me about any of the challenges below.
+Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. 
 
-#### *UIUCTF 2021*
+Feel free however to contact me about any of the challenges below.
+<br><br>
+
+### *UIUCTF 2021*
 -----
-- **Constructive Criticism** - Misc ? (?)
+- **Constructive Criticism** - Misc 408 (14)
 		&#8250; Audio, signal processing
-- **Q-Rious Transmissions** - Misc ? (?)
+- **Q-Rious Transmissions** - Misc 322 (23)
 		&#8250; Quantum entanglement (with Python-Qiskit)
+- **Capture the :flag:** - Forensics 311 (24)
+		&#8250; LSB steganography
+- **SUPER** - Forensics 371 (18)
+    &#8250; Encrypted VHD containing a DOS EXE 
 
-#### *CryptoCTF 2021*
+### *CryptoCTF 2021*
 -----
 - **Robert** - Crypto 194 (19)
 		&#8250; (inverse) Carmichael function
+- **Frozen** - Crypto 142 (29)
+    &#8250; Math reverse, signature forgery
+- **Hamul** - Crypto 83 (56)
+    &#8250; String conactation of primes
+- **Improved** - Crypto 117 (37)
+    &#8250; Hash collision
+- **Keybase** - Crypto 48 (118)
+    &#8250; AES CBC, IV recovery 
+- **Triplet** - Crypto 91 (50)
+    &#8250; RSA, custom keygen
+- **Wolf** - Crypto 128 (33)
+    &#8250; AES GCM(CTR), short IV, time.time()
+- **Salt and Pepper** - Crypto 71 (69)
+    &#8250; Length extension attack on MD5 and SHA1
 
-#### *ImaginaryCTF 2021*
+### *ImaginaryCTF 2021*
 -----
 - [Password Checker](./2021/07/30/ImaginaryCTF2021-Password-Checker.html) - Web 450 (15)
 		&#8250; Deobfuscated JavaScript, brute-force
 - [ZKPoD](./2021/07/29/ImaginaryCTF2021-ZKPoD.html) - Crypto 400 (19)
 		&#8250; Parity leak into LSB oracle
-- **Mazed** - Misc 225 (38)
+- [Mazed](./2021/07/30/ImaginaryCTF2021-Mazed.html) - Misc 225 (38)
 		&#8250; Maze, brute-force
 - **Off To The Races!** - Misc 275 (39)
 		&#8250; Regex, multi-threading vuln leads to check bypass
@@ -34,14 +56,14 @@ Not all write-ups are finished and some likely never will be, at least not befor
 		&#8250; Hex encoded into word lengths
 - **Primetime** - Crypto 300 (41)
 		&#8250;
-- **New Technology** - Crypto 300 (50)
+- [New Technology](./2021/08/03/ImaginaryCTF2021-New-Technology.html) - Crypto 300 (50)
 		&#8250; Number theory
 - **Roll it back** - Crypto 300 (58)
 		&#8250; Reversing
-- **Prisoner's Dilemma** - Misc 200 (63)
+- [Prisoner's Dilemma](./2021/08/03/ImaginaryCTF2021-Prisoners-Dilemma.html) - Misc 200 (63)
 		&#8250; Vim jail
-- **Cookie Stream** - Web 150 (86)
-		&#8250; AES CTR, bit flipping
+- [Cookie Stream](./2021/08/03/ImaginaryCTF2021-Cookie-Stream.html) - Web 150 (86)
+		&#8250; AES CTR, bit flipping on cookies
 - **Lines** - Crypto 150 (128)
 		&#8250; Diffie-Hellman
 - **Rock Solid Algorithm** - Crypto 100 (149)
@@ -49,7 +71,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Flip Flops** - Crypto 100 (160)
 		&#8250; AES CBC, block flipping
 
-#### *San Diego CTF 2021*
+### *San Diego CTF 2021*
 -----
 - **A Primed Hash Candidate** - Crypto 292 (21)
     &#8250; Custom hash, math reverse
@@ -58,7 +80,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - [Desmos Pro](./2021/05/01/SanDiegoCTF-Desmos-Pro.html) - Reversing 799 (5)
 		&#8250; Math reverse
 
-#### *DEF CON CTF Qualifier 2021*
+### *DEF CON CTF Qualifier 2021*
 -----
 - **nooombers** - Crypto 127 (44)
 		&#8250;
@@ -69,7 +91,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **smart-cryptooo** - Crypto 5 (343)
 		&#8250;
 
-#### *S4Lab CTF 2021*
+### *S4Lab CTF 2021*
 -----
 - **Baby-Xor** - Crypto ? (?)
 		&#8250;
@@ -94,7 +116,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Tom** - Misc ? (?)
 		&#8250;
 
-#### *Cyber Apocalypse 2021*
+### *Cyber Apocalypse 2021*
 -----
 - **PhaseStream 3** - Crypto 300 (531)
 		&#8250; AES-CTR, re-used key-iv, known plain text
@@ -121,7 +143,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Alienspeak** - Misc 375 (30)
 		&#8250; 
 
-#### *PlaidCTF 2021*
+### *PlaidCTF 2021*
 -----
 - **xorsa** - Crypto 100 (180)
 		&#8250; RSA with XOR hint
@@ -134,7 +156,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Proxima Concursus: Particle Collider** - Crypto 200 (5)
 		&#8250; Rust, 
 
-#### *UMDCTF 2021*
+### *UMDCTF 2021*
 -----
 - **Subway** - Crypto 225 (88)
 		&#8250; Substitution cipher
@@ -145,7 +167,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Whose Base Is It Anyway** - Crypto 741 (19)
 		&#8250; Matryoshka doll-like base encoding(s)
 
-#### *RITSEC CTF 2021*
+### *RITSEC CTF 2021*
 -----
 - **Lorem Ipsum** - Crypto 150 (135)
 		&#8250; Trithemius Ave Maria cipher
@@ -156,7 +178,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Feedback** - Crypto 500 (0)
 		&#8250; LFSR, creative custom encryption
 
-#### *Midnightsun CTF 2021*
+### *Midnightsun CTF 2021*
 -----
 - **ocat_024** - Crypto 220 (19)
 		&#8250; 
@@ -175,7 +197,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Backup: Frank** - Crypto 121 (49)
 		&#8250; Partially masked private RSA-SSH key recovery
 
-#### *BSides Canberra CTF 2021*
+### *BSides Canberra CTF 2021*
 -----
 - **Make RSA Great Again** - Crypto 50* (?)
 		&#8250; RSA
@@ -190,7 +212,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Super Cool Facts!** - Crypto 500* (?)
 		&#8250; ECC, invalid point attack
 
-#### *b01lers CTF 2021*
+### *b01lers CTF 2021*
 -----
 - **RSASSS** - Crypto 493 (13)
 		&#8250; RSA, Shamir's secret sharing
@@ -205,7 +227,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Double XOR** - Crypto 500 (1)
 		&#8250; 
 
-#### *ångstromCTF 2021*
+### *ångstromCTF 2021*
 -----
 - **Home Rolled Crypto** - Crypto 70 (173)
 		&#8250; Bit-wise encryption, input-output reverse
@@ -218,7 +240,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Oracle of Blair** - Crypto 160 (136)
 		&#8250; AES-CBC decryption oracle exploit (not a padding oracle attack)
 
-#### *Foobar CTF 2021*
+### *Foobar CTF 2021*
 -----
 - **Profezzor revenge** - Crypto 100 (66)
 		&#8250; XOR entire PDF with key derived from hex signature
@@ -235,7 +257,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **From Japan with Love** - Stego 383 (20)
 		&#8250; QR, red herring, LSB hidden ascii
 
-#### *picoCTF 2021*
+### *picoCTF 2021*
 -----
 - **Easy Peasy** - Crypto 40 (424)
 		&#8250; XOR cipher disguised as an OTP, len(key) != len(msg)
@@ -264,7 +286,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Clouds** - Crypto 500 (16)
 		&#8250; 
 
-#### *UMassCTF 2021*
+### *UMassCTF 2021*
 -----
 - **malware** - Crypto 434 (78)
 		&#8250; AES-CTR with re-used iv/counter and known plaintext
@@ -275,7 +297,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **warandpieces** - Stego 499 (13)
 		&#8250; 16-bit encoding (hex)
 
-#### *Securinets CTF Quals 2021*
+### *Securinets CTF Quals 2021*
 -----
 - **MiTM** - Crypto 559 (36)
 		&#8250; Diffie-Hellman exchange man in the middle attack (w/ ghost-check)
@@ -290,7 +312,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Exfiltration** - Stego 793 (25)
 		&#8250;  
 
-#### *LINE CTF 2021*
+### *LINE CTF 2021*
 -----
 - **babycrypto1** - Crypto 50 (106)
 		&#8250;  
@@ -301,7 +323,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **babycrypto4** - Crypto 50 (35)
 		&#8250; 
 
-#### *BlueHens CTF 2021*
+### *BlueHens CTF 2021*
 -----
 - **hot_diggity_dog** - Crypto 75 (48)
 		&#8250; RSA, large public exponent e, brute-force small private exponent d
@@ -320,7 +342,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **conFidential searcH and dEstroy** - Crypto 500 (1)
 		&#8250; 
 
-#### *Codefest CTF 2020*
+### *Codefest CTF 2020*
 -----
 - **RSA 1.0** - Crypto ? (?)
 		&#8250; RSA, multi-prime factorisation, insufficient padding
@@ -339,7 +361,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **C is hard** - Pwn ? (?)
 		&#8250; Buffer overflow exploit
 
-#### *NahamCon CTF 2021*
+### *NahamCon CTF 2021*
 -----
 - **Dice Roll \[Medium\]** - Crypto 406 (201)
 		&#8250; Mersenne-twister based RNG prediction
@@ -352,7 +374,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **DDR \[Medium\]** - Scripting 497 (51)
 		&#8250; Pixel values, PIL Python script
 
-#### *DaVinciCTF 2021*
+### *DaVinciCTF 2021*
 -----
 - **Bootless RSA** - Crypto 25 (127)
 		&#8250; RSA, small public exponent e
@@ -365,7 +387,7 @@ Not all write-ups are finished and some likely never will be, at least not befor
 - **Format me** - Pwn 90 (47)
 		&#8250; String format exploit
 
-#### *NetOn CTF 2021*
+### *NetOn CTF 2021*
 -----
 - **Just win** - Pwn 250 (4)
 		&#8250; 
