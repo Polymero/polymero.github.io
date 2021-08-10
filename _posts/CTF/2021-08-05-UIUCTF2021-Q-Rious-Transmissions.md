@@ -126,7 +126,7 @@ im0.putdata(bitstream)
 display(im0)
 ```
 
-![](/assets/ctf/QRT.qr2.png)
+![](/assets/ctf/QRT_qr2.png)
 
 Seems like that worked as well. Nice! Only cool kids use QisKit, hehe :sunglasses:.
 

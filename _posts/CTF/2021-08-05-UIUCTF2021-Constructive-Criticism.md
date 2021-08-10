@@ -39,7 +39,7 @@ plt.show()
 
 ![](/assets/ctf/CC_stream12.png)
 
-"The waveforms Mason, what do they mean?!?"
+_**"The waveforms Mason, what do they mean?!?"**_
 
 
 ## Exploitation
