@@ -34,8 +34,8 @@ aside:
     {% endif %}
   {% endfor %}
   {% unless available %}
-    No challenges available yet. <br>
-    Debug4RMY CTF 2021 expected to be online in August!
+    No challenges publicly available yet. <br>
+    Debug4RMY CTF 2021 expected to be online sometime late 2021 or early 2022!
   {% endunless %}
 </ul>
 

@@ -14,9 +14,9 @@ Feel free however to contact me about any of the challenges below.
 
 ### *UIUCTF 2021*
 -----
-- **Constructive Criticism** - Misc 408 (14)
+- [Constructive Criticism](./2021/08/05/UIUCTF2021-Constructive-Criticism.html) - Misc 408 (14)
 		&#8250; Audio, signal processing
-- **Q-Rious Transmissions** - Misc 322 (23)
+- [Q-Rious Transmissions](./2021/08/05/UIUCTF2021-Q-Rious-Transmissions.html) - Misc 322 (23)
 		&#8250; Quantum entanglement (with Python-Qiskit)
 - **Capture the :flag:** - Forensics 311 (24)
 		&#8250; LSB steganography
@@ -55,7 +55,7 @@ Feel free however to contact me about any of the challenges below.
 - **Short Story** - Forensics 150 (39)
 		&#8250; Hex encoded into word lengths
 - **Primetime** - Crypto 300 (41)
-		&#8250;
+		&#8250; Hex-encoding using primes
 - [New Technology](./2021/08/03/ImaginaryCTF2021-New-Technology.html) - Crypto 300 (50)
 		&#8250; Number theory
 - **Roll it back** - Crypto 300 (58)
@@ -80,7 +80,7 @@ Feel free however to contact me about any of the challenges below.
 - [Desmos Pro](./2021/05/01/SanDiegoCTF-Desmos-Pro.html) - Reversing 799 (5)
 		&#8250; Math reverse
 
-### *DEF CON CTF Qualifier 2021*
+### *DEFCON CTF Quals 2021*
 -----
 - **nooombers** - Crypto 127 (44)
 		&#8250;
@@ -293,7 +293,7 @@ Feel free however to contact me about any of the challenges below.
 - **Factoring is Fun** - Crypto 500 (7)
 		&#8250; Iterative Lattice Factorisation with 'random' known bits of p
 - [Weird RSA](./2021/03/01/UMassCTF-Weird-RSA.html) - Crypto 500 (10)
-		&#8250; LUC-RSA cryptosystem (based on 2nd order Lucas sequence) and close prime Fermat factorisation
+		&#8250; LUC-RSA cryptosystem (2nd order Lucas sequence), Fermat factorisation
 - **warandpieces** - Stego 499 (13)
 		&#8250; 16-bit encoding (hex)
 
@@ -302,7 +302,7 @@ Feel free however to contact me about any of the challenges below.
 - **MiTM** - Crypto 559 (36)
 		&#8250; Diffie-Hellman exchange man in the middle attack (w/ ghost-check)
 - **MiTM Revenge** - Crypto 757 (27)
-		&#8250; Diffie-Hellman exhange delayed man in the middle attack, with XOR vuln (w/ ghost-check)
+		&#8250; Diffie-Hellman delayed man in the middle attack, XOR vuln (w/ ghost-check)
 - **Special** - Crypto 908 (17)
 		&#8250; RSA LSB attack with small root finding
 - **Shilaformi** - Crypto 940 (14)

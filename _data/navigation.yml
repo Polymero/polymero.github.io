@@ -69,7 +69,7 @@ sidebar-home:
         - title:  Write-ups 2021
           url:    /ctf/overview-2021.html
         - title:  My Challenges
-          url:    /404.html
+          url:    /ctf/my-challs.html
   - title:        <i class="fas fa-scroll"></i> Linguistics
     children:
         - title:  About
@@ -99,4 +99,4 @@ sidebar-ctf:
   - title:        My Challenges
     children:
       - title:    Overview
-        url:      /ctf/my-chall-overview.html
+        url:      /ctf/my-challs.html
