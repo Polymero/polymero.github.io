@@ -9,25 +9,38 @@ title: Overview 2021
 
 Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. 
 
-Feel free however to contact me about any of the challenges below.
+Feel free however to contact me about any of the challenges below. ^w^
 <br><br>
 
+
+### *RaRCTF 2021*
+-----
+- **PsychECC** - Crypto 400 (39)
+	&#8250; ECC, invalid curve attack
+- **rotoRSA** - Crypto 300 (29)
+	&#8250; RSA, polynomial GCD
+- **Randompad** - Crypto 700 (24)
+	&#8250; Mersenne Twister PRNG padding, Coppersmith
+- **Snore** - Crypto 600 (17)
+	&#8250; Hidden number problem, Schnorr, LLL
+- **A3S** - Crypto 800 (4)
+	&#8250; AES with trits and trytes, affine S-box
 
 ### *UIUCTF 2021*
 -----
 - [Constructive Criticism](./2021/08/05/UIUCTF2021-Constructive-Criticism.html) - Misc 408 (14)
-		&#8250; Audio, signal processing
+	&#8250; Audio, signal processing
 - [Q-Rious Transmissions](./2021/08/05/UIUCTF2021-Q-Rious-Transmissions.html) - Misc 322 (23)
-		&#8250; Quantum entanglement (with Python-Qiskit)
+	&#8250; Quantum entanglement (with Python-Qiskit)
 - **Capture the :flag:** - Forensics 311 (24)
-		&#8250; LSB steganography
+	&#8250; LSB steganography
 - **SUPER** - Forensics 371 (18)
     &#8250; Encrypted VHD containing a DOS EXE 
 
 ### *CryptoCTF 2021*
 -----
 - **Robert** - Crypto 194 (19)
-		&#8250; (inverse) Carmichael function
+	&#8250; (inverse) Carmichael function
 - **Frozen** - Crypto 142 (29)
     &#8250; Math reverse, signature forgery
 - **Hamul** - Crypto 83 (56)
