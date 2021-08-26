@@ -1,7 +1,8 @@
 ---
 title: ImaginaryCTF 2021 - Prisoner's Dilemma
 category: CTF
-tags: Write-up Misc VIM Jail
+tags: misc jail
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

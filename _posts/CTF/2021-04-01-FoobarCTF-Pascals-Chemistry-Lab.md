@@ -1,11 +1,12 @@
 ---
 title: Foobar CTF 2021 - Pascal's Chemistry Lab
 category: CTF
-tags: Write-up Paillier
+tags: Paillier crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 453 pts (13 solves)
+Cryptography -- 453 pts (13 solves)
 
 Paillier encryption with trivial factorisation of the modulus.
 

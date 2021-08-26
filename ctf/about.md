@@ -6,11 +6,18 @@ aside:
   toc: False
 ---
 
+An overview of CTFs I participated in during 2021 can be found [here](./overview-2021.html).
+
+Check out the [Archive](/archive.html) to filter by tags!
+
+<br>
+
+
 <h2>Recent Write-ups</h2>
 
 <ul>
-  {% for post in site.posts limit:3 %}
-    {% if post.tags contains "Write-up" %}
+  {% for post in site.posts limit:4 %}
+    {% if post.hidden_tags contains "write-up" %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         {{ post.excerpt }}
@@ -25,7 +32,7 @@ aside:
 
 <ul>
   {% for post in site.posts %}
-    {% if post.tags contains "Challenge" %}
+    {% if post.hidden_tags contains "challenge" %}
       {% assign available = true %}
       <li>
       	<a href="{{ post.url }}">{{ post.title }}</a>
@@ -35,7 +42,7 @@ aside:
   {% endfor %}
   {% unless available %}
     No challenges publicly available yet. <br>
-    Debug4RMY CTF 2021 expected to be online sometime late 2021 or early 2022!
+    K3RN3LCTF 2021 expected to be online on the 29th and 30th of November!
   {% endunless %}
 </ul>
 

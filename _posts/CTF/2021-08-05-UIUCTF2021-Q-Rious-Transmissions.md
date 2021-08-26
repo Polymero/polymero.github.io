@@ -1,7 +1,8 @@
 ---
 title: UIUCTF 2021 - Q-Rious Transmissions
 category: CTF
-tags: Write-up Misc Quantum Qiskit
+tags: misc quantum Qiskit
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

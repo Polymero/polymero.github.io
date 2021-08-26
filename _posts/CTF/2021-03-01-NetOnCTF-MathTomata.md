@@ -1,7 +1,8 @@
 ---
 title: NetOn CTF 2021 - MathTomata
 category: CTF
-tags: Write-up DFA
+tags: DFA misc
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

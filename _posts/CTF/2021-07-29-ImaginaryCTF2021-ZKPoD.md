@@ -1,11 +1,12 @@
 ---
 title: ImaginaryCTF 2021 - ZKPoD
 category: CTF
-tags: Write-up Parity Leak RSA LSB-oracle
+tags: parity leak RSA LSB-oracle crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 400 pts (19 solves) -- Chall author: Robin_Jadoul
+Cryptography -- 400 pts (19 solves) -- Chall author: Robin_Jadoul
 
 Sending a cipher text to the server returns a flawed 'Zero Knowledge Proof of Decryption'. This ZKPoD protocol however leaks the parity of the decrypted cipher text, allowing us to abuse the server as a LSB oracle. Using a rather straightforward attack we can recover the decrypted flag in O(2\*2log(n)) (\~4096) server calls. Lucky for us, plumbers are typically slow to arrive ;).
 

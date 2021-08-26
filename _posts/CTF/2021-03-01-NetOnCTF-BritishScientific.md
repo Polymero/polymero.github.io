@@ -1,11 +1,12 @@
 ---
 title: NetOn CTF 2021 - BritishScientific
 category: CTF
-tags: Write-up Playfair
+tags: playfair crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 242 pts (11 solves) -- Chall author: Wozen
+Cryptography -- 242 pts (11 solves) -- Chall author: Wozen
 
 Playfair cipher with hinted key in challenge flavourtext.
 

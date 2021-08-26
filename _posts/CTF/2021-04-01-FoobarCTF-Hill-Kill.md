@@ -1,11 +1,12 @@
 ---
 title: Foobar CTF 2021 - Hill-Kill
 category: CTF
-tags: Write-up Hill-cipher
+tags: Hill-cipher crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 436 pts (15 solves)
+Cryptography -- 436 pts (15 solves)
 
 Iterative Hill cipher server challenge, given ciphertext and key.
 

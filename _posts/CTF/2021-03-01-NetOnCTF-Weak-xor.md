@@ -1,11 +1,12 @@
 ---
 title: NetOn CTF 2021 - Weak xor
 category: CTF
-tags: Write-up XOR
+tags: XOR crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 239 pts (13 solves) -- Chall author: N0xi0us
+Cryptography -- 239 pts (13 solves) -- Chall author: N0xi0us
 
 XOR with known plaintext allows us to easily recover the key.
 

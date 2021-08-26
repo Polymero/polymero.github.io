@@ -38,6 +38,6 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
   {% endfor %}
   {% unless available %}
     No challenges publicly available yet. <br>
-    Debug4RMY CTF 2021 expected to be online sometime late 2021 or early 2022!
+    K3RN3LCTF 2021 expected to be online on the 29th and 30th of November!
   {% endunless %}
 </ul>

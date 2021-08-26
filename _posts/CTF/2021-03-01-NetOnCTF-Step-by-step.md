@@ -1,11 +1,12 @@
 ---
 title: NetOn CTF 2021 - Step by step
 category: CTF
-tags: Write-up Web
+tags: web leak
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Scripting -- 239 pts (13 solves) -- Chall author: X4v1l0k
+Web -- 239 pts (13 solves) -- Chall author: X4v1l0k
 
 The website leaks when we have a correct substring of the flag, so we can brute-force our way to the full flag.
 

@@ -1,11 +1,12 @@
 ---
 title: NetOn CTF 2021 - PawN PawN
 category: CTF
-tags: Write-up 
+tags: crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 188 pts (29 solves) -- Chall author: eljoselillo7
+Cryptography -- 188 pts (29 solves) -- Chall author: eljoselillo7
 
 Some morse and chess board encodings.
 

@@ -1,13 +1,14 @@
 ---
 title: NetOn CTF 2021 - RSA... no primEs, no problEm
 category: CTF
-tags: Write-up RSA
+tags: RSA crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 500 pts (2 solves) -- Chall author: isHaacK
+Cryptography -- 500 pts (2 solves) -- Chall author: isHaacK
 
-Given both the public key and the secret value phi(n) we can derive the private component. There is one cath though, we do not know the public exponent... but we can just try until we find the right value.
+Given both the public key and the secret value phi(n) we can derive the private component. There is one catch though, we do not know the public exponent... but we can just try until we find the right value.
 
 <!--more-->
 

@@ -1,11 +1,12 @@
 ---
 title: NetOn CTF 2021 - Facts Br0!
 category: CTF
-tags: Write-up RSA PEM
+tags: RSA PEM crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 244 pts (10 solves) -- Chall author: N0xi0us
+Cryptography -- 244 pts (10 solves) -- Chall author: N0xi0us
 
 Importing the PEM key file we find a very short public key, which we trivially factorise using online tools.
 

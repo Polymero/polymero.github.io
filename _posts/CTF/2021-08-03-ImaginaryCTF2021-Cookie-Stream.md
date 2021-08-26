@@ -1,7 +1,8 @@
 ---
 title: ImaginaryCTF 2021 - Cookie Stream
 category: CTF
-tags: Write-up Web AES-CTR Bit-flip Cookies
+tags: web AES-CTR bit-flip cookies
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

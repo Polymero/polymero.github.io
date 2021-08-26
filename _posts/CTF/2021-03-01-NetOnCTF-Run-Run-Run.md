@@ -1,13 +1,14 @@
 ---
 title: NetOn CTF 2021 - Run Run Run
 category: CTF
-tags: Write-up Scripting Web
+tags: scripting web misc
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Scripting -- 215 pts (22 solves) -- Chall author: X4v1l0k
+Misc-Web -- 215 pts (22 solves) -- Chall author: X4v1l0k
 
-Scripting to solve randomised equations on a website.
+Scripting to read and solve randomised equations on a website.
 
 <!--more-->
 

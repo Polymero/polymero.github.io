@@ -1,7 +1,8 @@
 ---
 title: NetOn CTF 2021 - Picnicnic
 category: CTF
-tags: Write-up Web
+tags: web cookies
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

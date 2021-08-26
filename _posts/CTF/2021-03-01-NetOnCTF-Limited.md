@@ -1,7 +1,8 @@
 ---
 title: NetOn CTF 2021 - Limited
 category: CTF
-tags: Write-up Pwn Brute-force
+tags: pwn brute-force
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

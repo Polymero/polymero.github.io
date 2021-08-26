@@ -35,12 +35,15 @@
       {%- assign _article_cover = __return -%}
     {%- endif -%}
 
+
     {%- if include.type == 'item' -%}
+
       {%- if include.article_type == 'BlogPosting' -%}
         <article class="item" itemscope itemtype="http://schema.org/BlogPosting">
       {%- else -%}
         <article class="item">
       {%- endif -%}
+
         {%- if _article.cover and include.show_cover-%}
           {%- include snippets/get-nav-url.html path=_article.cover -%}
           {%- assign _article_cover = __return -%}
@@ -54,9 +57,11 @@
           {%- endif -%}
           </div>
         {%- endif -%}
+
         <div class="item__content">
           <header><a href="{{ _article_url }}"><h2 itemprop="headline" class="item__header">{{ _article.title }}</h2></a></header>
           <div class="item__description">
+
             {%- if _article.excerpt and include.show_excerpt -%}
               <div class="article__content" itemprop="description articleBody">
                 {%- if _excerpt_type == 'html' -%}
@@ -66,16 +71,20 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
+
             {%- if include.show_readmore -%}
               <p><a href="{{ _article_url }}">{{ _locale_readmore }}</a></p>
             {%- endif -%}
+
           </div>
+
           {%- if include.show_info -%}
             {%- include snippets/assign.html target=site.data.variables.default.page.pageview
               source0=_article.pageview -%}
             {%- assign _show_pageview = __return -%}
             {%- include article-info.html article=_article show_pageview=_show_pageview -%}
           {%- endif -%}
+
         </div>
       </article>
 
@@ -101,11 +110,33 @@
       {%- include snippets/get-locale-string.html key='ARTICLE_LIST_DATE_FORMAT' -%}
       <li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="{{ _tags }}">
         <div class="item__content">
+
+          <a itemprop="headline" class="item__header" href="{{ _article_url }}"><h3>{{ _article.title }}</h3></a>
+
           {%- if include.show_info -%}
-            <span class="item__meta">{{ _article.date | date: __return }}</span>
+            {%- include snippets/assign.html target=site.data.variables.default.page.pageview
+              source0=_article.pageview -%}
+            {%- assign _show_pageview = __return -%}
+            {%- include article-info.html article=_article show_pageview=_show_pageview -%}
           {%- endif -%}
-          <a itemprop="headline" class="item__header" href="{{ _article_url }}">{{ _article.title }}</a></div>
+
+          <div class="item__description">
+
+            {%- if _article.excerpt and include.show_excerpt -%}
+              <div class="article__content" itemprop="description articleBody">
+                {%- if _excerpt_type == 'html' -%}
+                  {{ _article.excerpt }}
+                {%- else -%}
+                  {{ _article.excerpt | strip_html | strip | truncate: _excerpt_truncate }}
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+
+          </div>
+
+        </div>
       </li>
+
 
     {%- elsif include.type == 'grid' -%}
       {%- if include.size == 'sm' -%}
@@ -139,6 +170,8 @@
         </div>
       {%- endif -%}
     {%- endif -%}
+
+
   {%- endfor -%}
 
 </div>

@@ -1,7 +1,8 @@
 ---
 title: ImaginaryCTF 2021 - Password Checker
 category: CTF
-tags: Write-up Web JavaScript Deobfuscation Brute-force
+tags: web JavaScript deobfuscation brute-force
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

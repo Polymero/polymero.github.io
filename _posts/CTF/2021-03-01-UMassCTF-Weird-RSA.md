@@ -1,11 +1,12 @@
 ---
 title: UMass CTF 2021 - Weird RSA
 category: CTF
-tags: Write-up RSA LUC Fermat
+tags: RSA LUC Fermat crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto  --  500 pts (10 solves)  --  Chall author: Soul
+Cryptography  --  500 pts (10 solves)  --  Chall author: Soul
 
 Augmented RSA encryption algorithm using the Lucas Sequence, also known as the LUC-Cryptosystem, combined with weak prime generations that allows for Fermat factorisation. 
 

@@ -1,7 +1,8 @@
 ---
 title: NetOn CTF 2021 - Grades
 category: CTF
-tags: Write-up Web Obfuscation
+tags: web deobfuscation JavaScript
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: Foobar CTF 2021 - Back to the future
 category: CTF
-tags: Write-up RSA Random
+tags: RSA bad-PRNG Mersenne-Twister crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Crypto -- 453 pts (13 solves) -- Chall author: Brad Hawk
+Cryptography -- 453 pts (13 solves) -- Chall author: Brad Hawk
 
 In order to enter the 'sanctum sanctorum' we need to predict a random output. The random module is seeded by a hidden value, which can be retrieved through RSA encryption (e=4) of the time() plus the hidden value.
 

@@ -1,11 +1,12 @@
 ---
 title: NetOn CTF 2021 - SecretMessage
 category: CTF
-tags: Write-up 
+tags: crypto
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 
-Scripting -- 247 pts (8 solves) -- Chall author: X4v1l0k
+Cryptography -- 247 pts (8 solves) -- Chall author: X4v1l0k
 
 Simple reversing of a custom encryption function.
 

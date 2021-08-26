@@ -57,11 +57,11 @@ sidebar-home:
   - title:        <i class="fas fa-rocket"></i> Astrophysics
     children:
         - title:  About
-          url:    /ast/about.html
+          url:    coming soon
         - title:  BSc Project
-          url:    /404.html
+          url:    coming soon
         - title:  MSc Project
-          url:    /404.html
+          url:    coming soon
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
     children:
         - title:  About
@@ -73,19 +73,19 @@ sidebar-home:
   - title:        <i class="fas fa-scroll"></i> Linguistics
     children:
         - title:  About
-          url:    /lin/about.html
+          url:    coming soon
         - title:  Language Evolution
-          url:    /404.html
+          url:    coming soon
         - title:  Iskélis (Ischéli)
-          url:    /404.html
+          url:    coming soon
         - title:  Hláhu (Fauja)
-          url:    /404.html
+          url:    coming soon
   - title:        <i class="fas fa-puzzle-piece"></i> Puzzle Series
     children:
         - title:  Hyperspatial Engineering
-          url:    /404.html
+          url:    coming soon
         - title:  Mysteries of Kumaon
-          url:    /404.html
+          url:    coming soon
 
 sidebar-ctf:
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
@@ -100,3 +100,6 @@ sidebar-ctf:
     children:
       - title:    Overview
         url:      /ctf/my-challs.html
+  - title:        CTF Crypto Tutorials
+    children:
+      - title:    coming soon

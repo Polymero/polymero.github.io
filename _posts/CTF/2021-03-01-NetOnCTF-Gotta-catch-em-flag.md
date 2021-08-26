@@ -1,7 +1,8 @@
 ---
 title: NetOn CTF 2021 - Gotta catch em flag
 category: CTF
-tags: Write-up GBA
+tags: GBA misc
+hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---
 

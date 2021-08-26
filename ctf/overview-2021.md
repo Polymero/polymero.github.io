@@ -7,22 +7,85 @@ aside:
 title: Overview 2021
 ---
 
-Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. 
+Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. Feel free however to contact me about any of the challenges below. ^w^
 
-Feel free however to contact me about any of the challenges below. ^w^
-<br><br>
+Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/writeups)
+<br>
 
+### *corCTF 2021*
+-----
+- [4096](./2021/08/23/corCTF2021-4096.html) - Crypto 360 (219)
+    &#8250; RSA modulus consisting of many small primes
+- **dividing_secrets** - Crypto 434 (121)
+    &#8250; Dividing the secret allows us to recover LSB with legendre symbols
+- **supercomputer** - Crypto 457 (85)
+    &#8250; Ridiculous powers (no modulus) computed with LTE
+- [babyrsa](./2021/08/23/corCTF2021-babyrsa.html) - Crypto 476 (50)
+    &#8250; Partially recovered RSA parameters recovered using univariate roots
+- [babypad](./2021/08/23/corCTF2021-babypad.html) - Crypto 484 (35)
+    &#8250; AES-CTR padding oracle attack
+- **babyrand** - Crypto 487 (29)
+    &#8250; bad PRNG recovered using multivariate roots
+- [bank](./2021/08/23/corCTF2021-bank.html) - Crypto 489 (25)
+    &#8250; Simple qubit manipulation to recover their state
+- [LCG_k](./2021/08/23/corCTF2021-LCG_k.html) - Crypto 489 (25)
+    &#8250; ECDSA with related nonces recovered using symbolic math
+- **mystery_stream** - Crypto 496 (10)
+    &#8250; 
+- **fried_rice** - Crypto 497 (6)
+    &#8250; 'dp' leak into bad PRNG (polynomial LCG) seed recovery
+- **leave_it_to_chance** - Crypto 498 (5)
+    &#8250; DSA recovery using modular-roots into forgery
+
+### *SSTF 2021*
+-----
+- **RC Four** - Crypto [EASY]
+    &#8250; RC4 is a stream cipher and therefore malleable.
+- **RSA 101** - Crypto [EASY]
+    &#8250; RSA, using homomorphic properties to deceive the server
+- **meLorean** - Crypto [EASY]
+    &#8250; Linear regression to recover slope, which decodes to ASCII
+- **MenInBlackHats** - Crypto [MEDIUM]
+    &#8250; Data-analysis of 3D coordinates, rotation reveals QR-code
+- **DecryptTLS** - Crypto [HARD]
+    &#8250; TLS 1.3 PCAP with bad client-side secret key in ECDHE
+- **License** - Crypto [HARD]
+    &#8250; ECDSA-signature-based DRM forgery
+- **Xero Trust** - Crypto [HARD]
+    &#8250; Web encryption with AES-CBC
+
+### *RACTF 2021*
+-----
+- [Military-Grade](./2021/08/23/RACTF2021-Military-Grade.html) - Crypto-Web 300 (48)
+    &#8250; Time seeded PRNG with bad masking, written in Go
+
+### *BSidesNoidaCTF 2021*
+-----
+- **MACAW** - Crypto 445 (50)
+    &#8250; AES-CBC with MAC authentication
+- **MACAW Revenge** - Crypto 473 (27)
+    &#8250; AES-CBC with MAC auth, but limited attempts
+- **baby_crypto** - Crypto 479 (22)
+    &#8250; 
+- **KOTF Returns** - Crypto 486 (15)
+    &#8250; DSA forgery (no hash leak)
+- **low power crypto** - Crypto 494 (7)
+    &#8250; ECC invalid-curve-attack
+- **prng** - Crypto 499 (1)
+    &#8250; 
+- **damn boi** - Crypto 500 (0)
+    &#8250; 
 
 ### *RaRCTF 2021*
 -----
 - **PsychECC** - Crypto 400 (39)
-	&#8250; ECC, invalid curve attack
+	&#8250; ECC invalid-curve-attack
 - **rotoRSA** - Crypto 300 (29)
 	&#8250; RSA, polynomial GCD
 - **Randompad** - Crypto 700 (24)
-	&#8250; Mersenne Twister PRNG padding, Coppersmith
+	&#8250; Mersenne Twister PRNG padding recoverd with Coppersmith
 - **Snore** - Crypto 600 (17)
-	&#8250; Hidden number problem, Schnorr, LLL
+	&#8250; Hidden number problem in Schnorr signatures solved with LLL
 - **A3S** - Crypto 800 (4)
 	&#8250; AES with trits and trytes, affine S-box
 
