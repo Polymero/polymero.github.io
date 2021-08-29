@@ -12,6 +12,34 @@ Not all write-ups are finished and some likely never will be, at least not befor
 Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/writeups)
 <br>
 
+### *WORMCON 0x01 2021*
+-----
+- **Exclusive** - Crypto 100 (25)
+    &#8250; Home-rolled XOR cipher with key space of 256, easily brute-forced
+- **Fake Encryption** - Crypto 379 (12)
+    &#8250; DES-ECB encryption recovered using known plaintext-ciphertext pair
+- **Invisible Cipher** - Crypto 419 (10)
+    &#8250; Substitution cipher broken with quick frequency analysis and quipqiup
+- **Rem, Shinobu, Asuna** - Crypto 475 (6)
+    &#8250; RSA math hint
+- **Sir Oracle** - Crypto 484 (5)
+    &#8250; DHE with user input XOR leak
+
+### *FwordCTF 2021*
+-----
+- **Leaky-Blinders** - Crypto 100 (121)
+    &#8250; Non-key bytes leaked iteratively
+- **Boombastic** - Crypto 738 (55)
+    &#8250; Math to recover server secret into signature forgery
+- **Invincible** - Crypto 930 (29)
+    &#8250; ECC invalid-curve-attack
+- **Login** - Crypto 991 (11)
+    &#8250; Length-extension-attack into RSA modulus recovery
+- **Transfer** - Crypto 998 (6)
+    &#8250; ECDSA fault-attack due to a HMAC bug
+- **Procyon** - Crypto 1000 (4)
+    &#8250; DHE HNP, see Raccoon Attack
+
 ### *corCTF 2021*
 -----
 - [4096](./2021/08/23/corCTF2021-4096.html) - Crypto 360 (219)
