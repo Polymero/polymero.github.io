@@ -18,7 +18,7 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
     &#8250; Home-rolled XOR cipher with key space of 256, easily brute-forced
 - [Fake Encryption](./2021/08/29/WORMCON0x012021-Fake-Encryption.html) - Crypto 379 (12)
     &#8250; DES-ECB encryption recovered using known plaintext-ciphertext pair
-- [Invisible Cipher](./ctf/2021/08/29/WORMCON0x012021-Invisible-Cipher.html) - Crypto 419 (10)
+- [Invisible Cipher](./2021/08/29/WORMCON0x012021-Invisible-Cipher.html) - Crypto 419 (10)
     &#8250; Substitution cipher broken with quick frequency analysis and quipqiup
 - **Rem, Shinobu, Asuna** - Crypto 475 (6)
     &#8250; RSA math hint
