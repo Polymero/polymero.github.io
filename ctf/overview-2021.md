@@ -12,6 +12,110 @@ Not all write-ups are finished and some likely never will be, at least not befor
 Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/writeups)
 <br>
 
+### *BuckeyeCTF 2021*
+-----
+- **Key exchange** - Crypto 40 (141)
+    &#8250; x
+- **Key exchange 2** - Crypto 90 (34)
+    &#8250; x
+- **Defective RSA** - Crypto 441 (33)
+    &#8250; RSA with non co-prime public exponent, multiple solutions possible
+- **Elliptigo** - Crypto 465 (21)
+    &#8250; Invalid curve attack on Curve25519 by choosing low-order base point
+
+### *ASIS CTF Quals 2021*
+-----
+- **Madras** - Crypto 59 (88)
+    &#8250; RSA with math hint
+- **Spiritual** - Crypto 79 (60)
+    &#8250; ECC, order of field extensions
+- **Pinhole** - Crypto 134 (31)
+    &#8250; Matrix-substitution cipher
+- **Lagleg** - Crypto 201 (18)
+    &#8250; Small key space brute-force
+- **Damas** - Crypto 477 (1)
+    &#8250; Matrix DLP red-herring, Wiener attack
+
+### *pbctf 2021*
+-----
+- **Alkaloid Stream** - Crypto 134 (132)
+    &#8250; Simple reverse of encryption function
+- **Steroid Stream** - Crypto 198 (38)
+    &#8250; Finding additions to a linear independent set to retrieve key (unintended solution)
+- **GoodHash** - Crypto 218 (30)
+    &#8250; Forge GCM IV collision
+- **Seed Me** - Crypto 242 (23)
+    &#8250; Java.utils.random LCG seed forgery
+- **Yet Another PRNG** - Crypto 292 (14)
+    &#8250; x
+- **Yet Another RSA** - Crypto 309 (12)
+    &#8250; x
+
+### *TastelessCTF 2021*
+-----
+- **crybaby** - Crypto 492 (14)
+	&#8250; AES-GCM with re-used IV leads to a simple tag forgery
+
+### *TSGCTF 2021*
+-----
+- **Beginner's Crypto 2021** - Crypto 100 (126)
+	&#8250; x
+- **Minimalist's Private** - Crypto 137 (49)
+	&#8250; RSA with substantially small Carmichael function
+- **Baba is Flag** - Crypto 162 (34)
+	&#8250; x
+- **Flag is Win** - Crypto 278 (10)
+	&#8250; x
+- **This is DSA** - Crypto 290 (9)
+	&#8250; x
+
+### *DownUnderCTF 2021*
+- **Substitution Cipher I** - Crypto 100 (362)
+	&#8250; x
+- **Break Me!** - Crypto 100 (162)
+	&#8250; x
+- **Substitution Cipher II** - Crypto 100 (155)
+	&#8250; x
+- **treasure** - Crypto 100 (102)
+	&#8250; x
+- **JWT** - Web 457 (34)
+	&#8250; x
+- **Secuchat** - Crypto 462 (32)
+	&#8250; Heap of public RSA keys leaks shared prime which allows us to decrypt some users' messages
+- **encrypted note** - Pwn 483 (22)
+	&#8250; x
+- **power sign** - Crypto 494 (14)
+	&#8250; x
+- **yadlp** - Crypto 494 (14)
+	&#8250; x
+- **OTWhat 1** - Crypto 496 (12)
+	&#8250; x
+- **OTWhat 2** - Crypto 500 (5)
+	&#8250; x
+- **1337crypt v2** - Crypto 500 (3)
+	&#8250; x
+- **Substitution Cipher III** - Crypto 500 (1)
+	&#8250; x
+
+### *H@cktivityCon 2021 CTF*
+- **Triforce** - Crypto 444 (73)
+	&#8250; Simple AES-CBC IV recovery from encryption/decryption oracle
+- **Sausage Links** - Crypto 468 (55)
+	&#8250; Wiener attack on multi-prime RSA
+
+### *CSAW CTF Qualification Round 2021*
+-----
+- **RSA Pop Quiz** - Crypto 390 (137)
+    &#8250; RSA, small private exponent, close primes, LSB oracle, partial key exposure
+- **Forgery** - Crypto 405 (127)
+    &#8250; Simple DSA forgery due to faulty mask and message check
+- **Save the Tristate** - Misc 474 (68)
+    &#8250; Trivial QKD-esque challenge
+- **ECC Pop Quiz** - Crypto 478 (63)
+    &#8250; ECC, anomalous curve, simple curve, singular curve
+- **Bits** - Crypto 497 (24)
+    &#8250; Discrete logarithm bit leak reveals the multiplicative order to be smooth
+
 ### *WORMCON 0x01 2021*
 -----
 - [Exclusive](./2021/08/29/WORMCON0x012021-Exclusive.html) - Crypto 100 (25)

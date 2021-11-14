@@ -28,7 +28,7 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 <ul>
   {% for post in site.posts %}
-    {% if post.tags contains "Challenge" %}
+    {% if post.hidden_tags contains "my-challenge" %}
       {% assign available = true %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -37,7 +37,6 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
     {% endif %}
   {% endfor %}
   {% unless available %}
-    No challenges publicly available yet. <br>
-    K3RN3LCTF 2021 expected to be online on the 29th and 30th of November!
+    No challenges publicly available yet.
   {% endunless %}
 </ul>
