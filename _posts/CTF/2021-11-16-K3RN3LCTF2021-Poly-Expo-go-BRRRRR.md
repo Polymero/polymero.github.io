@@ -1,7 +1,7 @@
 ---
 title: K3RN3LCTF 2021 - Poly Expo go BRRRRR
 category: CTF
-tags: misc maze Dijkstra
+tags: crypto RSA polynomial
 hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---

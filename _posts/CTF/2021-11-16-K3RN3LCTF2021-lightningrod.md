@@ -18,7 +18,7 @@ nc ctf.k3rn3l4rmy.com 2245
 
 Files: [lightningrod](https://github.com/Kasimir123/K3RN3LCTF-2021/blob/main/downloadable/lightningrod/lightningrod), [burned.crisp](https://github.com/Kasimir123/K3RN3LCTF-2021/blob/main/downloadable/lightningrod/burned.crisp)
 
-Source code (not provided during CTF): [lightningrod.C]
+Source code (not provided during CTF): [lightningrod.C](https://github.com/Kasimir123/K3RN3LCTF-2021/blob/main/source-code/lightningrod/lightningrod.c)
 
 This challenge was part of our very first CTF, [K3RN3LCTF 2021](https://ctftime.org/event/1438).
 

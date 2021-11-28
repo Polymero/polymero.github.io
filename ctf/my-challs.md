@@ -47,6 +47,7 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 | [Game of Secrets]() | Cellular Mania | K3RN3LCTF 2021 | Game of Life | TOY | 8 | 2 |
 | [Total Encryption]() | Remote Secure Armoury | K3RN3LCTF 2021 | RSA | IMP | 9 | 0 |
 | [HADIOR]() | Spinning my Web | K3RN3LCTF 2021 | DSA | TOY | 9 | 3 |
+| [Beastly Vault]() | Spinning my Web | @HackCTF 2021 | AES | IMP | 9 | ? |
 {:.custom-table}
 
 <h3>Reverse Engineering</h3>
