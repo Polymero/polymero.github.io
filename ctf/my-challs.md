@@ -40,14 +40,13 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 | [Non-Square Freedom 2](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) | Prime Crimes | K3RN3LCTF 2021 | RSA | TOY | 4 | 11 |
 | [Ain't no Mountain High Enough](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Aint-no-Mountain-High_Enough.html) | Mountain Cipher | K3RN3LCTF 2021 | Hill Cipher | TOY | 5 | 1 |
 | [Objection!](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Objection.html) | Prime Crimes | K3RN3LCTF 2021 | DSA | IMP | 6 | 2 |
-| [Tick Tock]() | Erratic Elliptics | K3RN3LCTF 2021 | Group Theory | TOY | 6 | 6 |
+| [Tick Tock](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Tick-Tock.html) | Erratic Elliptics | K3RN3LCTF 2021 | Group Theory | TOY | 6 | 6 |
 | [Beecryption](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Beecryption.html) | Honeycomb | K3RN3LCTF 2021 | Linear | TOY | 7 | 2 |
-| [Shrine of the Sweating Buddha]() | Sweating Buddha | K3RN3LCTF 2021 | Paillier | TOY | 8 | 0 |
-| [Mowhock]() | Submit to Chaos | K3RN3LCTF 2021 | Logistic Map | TOY | 8 | 0 |
-| [Game of Secrets]() | Cellular Mania | K3RN3LCTF 2021 | Game of Life | TOY | 8 | 2 |
-| [Total Encryption]() | Remote Secure Armoury | K3RN3LCTF 2021 | RSA | IMP | 9 | 0 |
-| [HADIOR]() | Spinning my Web | K3RN3LCTF 2021 | DSA | TOY | 9 | 3 |
-| [Beastly Vault]() | Spinning my Web | @HackCTF 2021 | AES | IMP | 9 | ? |
+| [Shrine of the Sweating Buddha](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Shrine-of-the-Sweating-Buddha.html) | Sweating Buddha | K3RN3LCTF 2021 | Paillier | TOY | 8 | 0 |
+| **Mowhock** | Submit to Chaos | K3RN3LCTF 2021 | Logistic Map | TOY | 8 | 0 |
+| [Game of Secrets](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Game-of-Secrets.html) | Cellular Mania | K3RN3LCTF 2021 | Game of Life | TOY | 8 | 2 |
+| [Total Encryption](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Total-Encryption.html) | Remote Secure Armoury | K3RN3LCTF 2021 | RSA | IMP | 9 | 0 |
+| [HADIOR](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-HADIOR.html) | Spinning my Web | K3RN3LCTF 2021 | DSA | TOY | 9 | 3 |
 {:.custom-table}
 
 <h3>Reverse Engineering</h3>
@@ -62,7 +61,7 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 | Challenge | Framework | Published | Primitive | Type | Diff | Solves |
 | --------- | --------- | --------- | --------- | ---- | ---- | ------ |
-| [3Dangerous Commute]() | Hyperspatial Engineering | K3RN3LCTF 2021 | Maze | PZL | 5 | 5 |
+| **3Dangerous Commute** | Hyperspatial Engineering | K3RN3LCTF 2021 | Maze | PZL | 5 | 5 |
 {:.custom-table}
 <br><br>
 

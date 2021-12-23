@@ -12,6 +12,105 @@ Not all write-ups are finished and some likely never will be, at least not befor
 Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/writeups)
 <br>
 
+### *hxp CTF 2021*
+-----
+- **gipfel** - Crypto 85 (109)
+    &#8250; x
+- **kipferl** - Crypto 227 (35)
+    &#8250; x
+- **infinity** - Crypto 500 (11)
+    &#8250; x
+- **caBalS puking** - Misc/Crypto 667 (6)
+    &#8250; x
+- **zipfel** - Crypto 714 (5)
+    &#8250; x
+- **f_cktoring** - Crypto 833 (3)
+    &#8250; x
+
+### *SECCON CTF 2021*
+-----
+- **pppp** - Crypto 117 (70)
+    &#8250; x
+- **oOoOoO** - Crypto 182 (26)
+    &#8250; x
+- **CCC** - Crypto 221 (17)
+    &#8250; x
+- **cerberus** - Crypto 227 (16)
+    &#8250; x
+- **XXX** - Crypto 240 (14)
+    &#8250; x
+- **Sign Wars** - Crypto 305 (8)
+    &#8250; x
+- **case-insensitive** - Misc 305 (8)
+    &#8250; x
+
+### *idekCTF 2021*
+-----
+- **EccRoll** - Crypto x (x)
+    &#8250; x
+- **DestroyedRSA** - Crypto x (x)
+    &#8250; x
+- **Seedoflife** - Crypto x (x)
+    &#8250; x
+- **Hashbrown** - Crypto x (x)
+    &#8250; x
+
+### *X-MAS CTF 2021*
+-----
+- **Having a BLAST** - Bioinformatics 50 (133) 2nd blood
+    &#8250; x
+- **A putative sequence** - Bioinformatics 428 (40) 2nd blood
+    &#8250; x
+- **SantaVax reverse engineering** - Bioinformatics 711 (14) 1st blood
+    &#8250; x
+- **One Time Present** - Crypto/Rev 494 (12)
+    &#8250; x
+- **Santa's Secret Encoding Machine** - Crypto 496 (10)
+    &#8250; x
+- **Santa's Bilingual Encryption System** - Crypto 498 (6)
+    &#8250; x
+- **Santa's Secure Database** - Crypto 498 (6)
+    &#8250; x
+- **Worst two reindeer** - Crypto 500 (3)
+    &#8250; x
+- **Still Two Bad Reindeer** - Crypto 500 (3) 3rd blood
+    &#8250; x
+
+### *VULNCON CTF 2021*
+-----
+- **x** - Crypto x (x)
+    &#8250; x
+
+### *HITCON CTF 2021*
+-----
+- **so easy rsa** - Crypto 210 (56)
+    &#8250; x
+- **a little easy rsa** - Crypto 240 (37)
+    &#8250; x
+- **magic rsa** - Crypto 262 (27)
+    &#8250; x
+- **magic dlog** - Crypto 262 (27)
+    &#8250; x
+- **so easy but not rsa** - Crypto 305 (15)
+    &#8250; x
+- **still not rsa** - Crypto 321 (12)
+    &#8250; x
+
+### *N1CTF 2021*
+-----
+- **checkin** - Crypto ? (7)
+    &#8250; x
+- **n1ogin** - Crypto ? (7)
+    &#8250; x
+- **n1token1** - Crypto ? (3)
+    &#8250; x
+- **n1token2** - Crypto ? (3)
+    &#8250; x
+
+### *K3RN3LCTF 2021*
+-----
+See the [challenges](./my-challs.html) I made!
+
 ### *BuckeyeCTF 2021*
 -----
 - **Key exchange** - Crypto 40 (141)
