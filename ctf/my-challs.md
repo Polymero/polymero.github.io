@@ -49,6 +49,8 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 | [HADIOR](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-HADIOR.html) | Spinning my Web | K3RN3LCTF 2021 | DSA | TOY | 9 | 3 |
 {:.custom-table}
 
+And more, just waiting to be published ~ !
+
 <h3>Reverse Engineering</h3>
 
 | Challenge | Framework | Published | Primitive | Type | Diff | Solves |

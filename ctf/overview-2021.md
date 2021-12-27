@@ -7,25 +7,51 @@ aside:
 title: Overview 2021
 ---
 
-Not all write-ups are finished and some likely never will be, at least not before our Sun burns up. Feel free however to contact me about any of the challenges below. ^w^
+An overview of all CTF challenges I checked out this year. Some even contain a write-up I wrote, although they can be quite sparse. Feel free to contact me about any of the challenges below. ^w^
 
 Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/writeups)
 <br>
 
+### *backdoorctf 2021*
+-----
+- **non abelian** - Crypto x (x)
+    &#8250; Matrix DDH, integer size reveals origin
+- **non abelian revenge** - Crypto x (x)
+    &#8250; Matrix DDH, determinant reveals origin
+- **MDLP** - Crypto x (x)
+    &#8250; DLP with matrices, 
+- **I'm the Mountain** - Crypto x (x)
+    &#8250; Kyber, weak implementation
+- **lfsr** - Crypto 500 (1)
+    &#8250; Simple Power Analysis (SPA) with hidden taps
+- **Beyond the Mountain** - Crypto 500 (0)
+    &#8250; Kyber, x
+
+### *ASIS CTF Finals 2021*
+-----
+- **Stairs** - Crypto 191 (43)
+    &#8250; RSA-like cryptosystem reduced to quadratic equation
+- **nDLP** - Crypto 218 (37)
+    &#8250; DLP, modulus factors into insecure small primes
+- **RAS** - Crypto 224 (36)
+    &#8250; RSA, low-entropy prime generation
+- **mDLP** - Crypto 262 (30)
+    &#8250; DLP over matrix group, solve DLP over eigenvalues
+
 ### *hxp CTF 2021*
 -----
 - **gipfel** - Crypto 85 (109)
-    &#8250; x
+    &#8250; Diffie-Hellman, trivial subgroup attack
 - **kipferl** - Crypto 227 (35)
     &#8250; x
 - **infinity** - Crypto 500 (11)
-    &#8250; x
+    &#8250; CSIDH, x
 - **caBalS puking** - Misc/Crypto 667 (6)
     &#8250; x
 - **zipfel** - Crypto 714 (5)
     &#8250; x
 - **f_cktoring** - Crypto 833 (3)
-    &#8250; x
+    &#8250; Quadratic field homomorphism into ECM factoring
 
 ### *SECCON CTF 2021*
 -----
@@ -47,13 +73,13 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
 ### *idekCTF 2021*
 -----
 - **EccRoll** - Crypto x (x)
-    &#8250; x
+    &#8250; ECC-based DDH beaten by trivial on curve check
 - **DestroyedRSA** - Crypto x (x)
-    &#8250; x
+    &#8250; Backdoor RSA prime construction (paper crypto)
 - **Seedoflife** - Crypto x (x)
-    &#8250; x
+    &#8250; Brute-force PRNG seed
 - **Hashbrown** - Crypto x (x)
-    &#8250; x
+    &#8250; Brute-force home-rolled hash collision
 
 ### *X-MAS CTF 2021*
 -----
@@ -62,7 +88,7 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
 - **A putative sequence** - Bioinformatics 428 (40) 2nd blood
     &#8250; x
 - **SantaVax reverse engineering** - Bioinformatics 711 (14) 1st blood
-    &#8250; x
+    &#8250; Dissecting custom mRNA vaccin
 - **One Time Present** - Crypto/Rev 494 (12)
     &#8250; x
 - **Santa's Secret Encoding Machine** - Crypto 496 (10)
@@ -71,9 +97,9 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
     &#8250; x
 - **Santa's Secure Database** - Crypto 498 (6)
     &#8250; x
-- **Worst two reindeer** - Crypto 500 (3)
-    &#8250; x
-- **Still Two Bad Reindeer** - Crypto 500 (3) 3rd blood
+- **Worst two reindeer** - Crypto 500 (3) 3rd blood
+    &#8250; Near-linear block cipher key recovery
+- **Still Two Bad Reindeer** - Crypto 500 (3)
     &#8250; x
 
 ### *VULNCON CTF 2021*
@@ -109,7 +135,43 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
 
 ### *K3RN3LCTF 2021*
 -----
-See the [challenges](./my-challs.html) I made!
+The [challenges](./my-challs.html) I wrote:
+- [Twizzty Buzzinezz](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Twizzty-Buzzinezz.html) - Crypto 100 (116)
+    &#8250; XOR with predictable key stream
+- [1-800-758-6237](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-1-800-758-6237.html) - Crypto 437 (28)
+    &#8250; XOR cribbing
+- [Non-Square Freedom 1](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) - Crypto 465 (21)
+    &#8250; Multi-prime RSA with small message
+- [Non-Square Freedom 2](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) - Crypto 490 (11)
+    &#8250; Weak multi-prime RSA
+- [Poly-Proof](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Poly-Proof.html) - Crypto 490 (11)
+    &#8250; Bad polynomial commitment scheme
+- [Poly Expo go BRRRRR](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Poly-Expo-go-BRRRRR.html) - Crypto 494 (9)
+    &#8250; Polynomial-based RSA is easily factored
+- [Tick Tock](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Tick-Tock.html) - Crypto 496 (6)
+    &#8250; Clock group DLP solved in quadratic homomorphism
+- **3Dangerous Commute** - Misc 497 (5)
+    &#8250; Reverse mine sweeper into Dijkstra min-cost path
+- [lightningrod](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-lightningrod.html) - Rev 499 (3)
+    &#8250; Brute-force base64 input through XOR field
+- [Cozzmic Dizzcovery](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Cozzmic-Dizzcovery.html) - Crypto 499 (3)
+    &#8250; XOR field state recovery
+- [HADIOR](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-HADIOR.html) - Crypto 499 (3)
+    &#8250; Hamming distance oracle into signature forgery
+- [Objection!](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Objection.html) - Crypto 500 (2)
+    &#8250; Double signature spoofing through domain injection
+- [Beecryption](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Beecryption.html) - Crypto 500 (2)
+    &#8250; Affine cryptosystem solved with known plaintext-ciphertext
+- [Game of Secrets](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Game-of-Secrets.html) - Crypto 500 (2)
+    &#8250; 'Game of Life' inspired cryptosystem leaks round keys
+- [Ain't no Mountain High Enough](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Aint-no-Mountain-High_Enough.html) - Crypto 500 (1)
+    &#8250; Multi-key Hill Cipher solved with basic linear algebra
+- [Shrine of the Sweating Buddha](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Shrine-of-the-Sweating-Buddha.html) - Crypto 500 (0)
+    &#8250; Paillier with predictable blind pattern and recursive Paillier
+- **Mowhock** - Crypto 500 (0)
+    &#8250; Chaotic orbits based on logistic maps, weak IV injection
+- [Total Encryption](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Total-Encryption.html) - Crypto 500 (0)
+    &#8250; Multi-layered RSA beaten by Franklin-Reiter and Coppersmith attacks
 
 ### *BuckeyeCTF 2021*
 -----
