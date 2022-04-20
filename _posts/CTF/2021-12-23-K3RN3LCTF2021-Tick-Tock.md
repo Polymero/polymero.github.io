@@ -254,7 +254,7 @@ such that we can finally substitute the original point values back in to end up 
 
 $$ (x_3,\ y_3) = \left( x_1 y_2 + y_1 x_2 ,\ y_1 y_2 - x_1 x_2 \right). $$
 
-Now, how to actually solve this? Brute-forcing the answer should not be easily possible due to the used prime sizes. Additionally, it is unlikely all eight primes have some underlying weakness, such as a smooth order. _I could have easily prevented this during the generation of the primes, but I did not for no reason really..._ Turns out somebody wrote an implementation of the baby-step giant-step (BSGS) algorithm in C++, which was able to solve the eight discrete logarithms in a reasonable time. However, there is a clever way to defeat this silly clock group! Let's consider the addition rule for two equivalent points.
+Now, how to actually solve this? Brute-forcing the answer should not be easily possible due to the used prime sizes. Additionally, it is unlikely all eight primes have some underlying weakness, such as a smooth order. _I could have easily prevented this during the generation of the primes, but I did not for no reason really..._ Turns out somebody (literally 'somebody') wrote an implementation of the baby-step giant-step (BSGS) algorithm in C++, which was able to solve the eight discrete logarithms in a reasonable time. However, there is a clever way to defeat this silly clock group! Let's consider the addition rule for two equivalent points.
 
 $$ (x_3,\ y_3) = \left( 2xy,\ y^2 - x^2 \right) $$
 
@@ -264,7 +264,7 @@ $$ (y + ix)^2 = (2xy) + i(y^2 - x^2) $$
 
 where $ i = \sqrt{-1} \mod{P} $. In fact, this holds for any multiple of a point. We have just found ourselves a group homomorphism!
 
-$$ \phi(x,y) : \mathrm{CG}(P) \rightarrow \mathbb{F}^{\times}_{P} = y + ix \mod{P} $$ 
+$$ \phi(x,y) : \mathrm{CG}(P) \rightarrow \mathbb{F}^{\times}_{P^2} = y + ix \mod{P} $$ 
 
 We can use the above to map our discrete logarithms from the clock group to the multiplicative group as such
 

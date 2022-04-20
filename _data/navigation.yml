@@ -56,12 +56,7 @@ sidebar-home:
           url:    /about.html
   - title:        <i class="fas fa-rocket"></i> Astrophysics
     children:
-        - title:  About
-          url:    coming soon
-        - title:  BSc Project
-          url:    coming soon
-        - title:  MSc Project
-          url:    coming soon
+        - title:  WIP
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
     children:
         - title:  About
@@ -72,20 +67,7 @@ sidebar-home:
           url:    /ctf/my-challs.html
   - title:        <i class="fas fa-scroll"></i> Linguistics
     children:
-        - title:  About
-          url:    coming soon
-        - title:  Language Evolution
-          url:    coming soon
-        - title:  Iskélis (Ischéli)
-          url:    coming soon
-        - title:  Hláhu (Fauja)
-          url:    coming soon
-  - title:        <i class="fas fa-puzzle-piece"></i> Puzzle Series
-    children:
-        - title:  Hyperspatial Engineering
-          url:    coming soon
-        - title:  Mysteries of Kumaon
-          url:    coming soon
+        - title:  WIP
 
 sidebar-ctf:
   - title:        <i class="fas fa-flag"></i> CTF - Cryptography
@@ -94,12 +76,12 @@ sidebar-ctf:
         url:      /ctf/about.html
   - title:        Write-ups
     children:
+      - title:    My Challenges
+        url:      /ctf/my-challs.html
+      - title:    Overview 2022
+        url:      /ctf/overview-2022.html
       - title:    Overview 2021
         url:      /ctf/overview-2021.html
-  - title:        My Challenges
-    children:
-      - title:    Overview
-        url:      /ctf/my-challs.html
   - title:        CTF Crypto Tutorials
     children:
-      - title:    coming soon
+      - title:    WIP
