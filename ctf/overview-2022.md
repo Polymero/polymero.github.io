@@ -13,6 +13,24 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
 <br>
 
 
+### *HackPack CTF 2022*
+-----
+The [challenges](./my-challs.html) I wrote:
+- [Repeating Offense](https://www.sebven.com/ctf/2022/04/12/HackPackCTF2022-Repeating-Offense.html) - Crypto 443 pts (20 solves)
+    &#8250; Homomorphism attack on layered RSA + Paillier scheme(s)
+- [P(ai)^3](https://www.sebven.com/ctf/2022/04/12/HackPackCTF2022-Paiaiai.html) - Crypto 469 pts (15 solves)
+    &#8250; Faulty Paillier scheme leaks primes and message
+
+
+
+### *UMassCTF 2022*
+-----
+The [challenges](./my-challs.html) I wrote:
+- [HatMash](https://www.sebven.com/ctf/2022/04/21/UMassCTF2022-HatMash.html) - Crypto 500 pts (1 solve)
+    &#8250; Hashing algorithm based on linear algebra
+
+
+
 ### *LINE CTF 2022*
 -----
 - **ss-puzzle** - Crypto 100 pts (221 solves)

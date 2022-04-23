@@ -14,7 +14,7 @@ _Pai-ai-ai... My Paillier scheme seems to be broken and I stored my favourite fl
 
 nc cha.hackpack.club 10997 or 20997
 
-Files: [paiaiai.py]()
+Files: [paiaiai.py](https://github.com/hackpack-ncsu/CTF-2022/blob/main/crypto/pai3/paiaiai.py)
 
 ![](/assets/ctf/Paiaiai_chall.png)
 
@@ -246,8 +246,9 @@ Ta-da!
 flag{p41_41_41_1_d0nt_th1nk_th1s_1s_wh4t_p41ll13r_1nt3nd3d_3h}
 ```
 
+<br>
 
-**Full Exploit Script**
+#### Full Exploit Script
 
 ```py
 #!/usr/bin/env python3

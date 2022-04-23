@@ -14,12 +14,13 @@ _One-time oracles using RSA or Paillier are not a great idea due to those slippe
 
 nc cha.hackpack.club 10996 or 20996
 
-Files: [repeatingoffense.py]()
+Files: [repeatingoffense.py](https://github.com/hackpack-ncsu/CTF-2022/blob/main/crypto/repeatingoffense/repeatingoffense.py)
 
 ![](/assets/ctf/RepeatingOffense_chall.png)
 
 This challenge was part of my guest appearance on [HackPack CTF 2022](https://ctftime.org/event/1620).
 
+<br>
 
 ## Exploration
 
@@ -321,7 +322,7 @@ $$ E(m) = \left( g^m \cdot r^N \right)^e \mod{N^2}. $$
 
 Now that we know what is going on in the server and what we are able to do, let's see how we can slip our way past the two password protected stages.
 
-
+<br>
 
 ## Exploitation 1: Missing Group Validation
 
@@ -374,7 +375,7 @@ Ta-da!
 flag{s4dly_f0r_y0u_j41l_t1m3_1s_n0t_h0m0m0rph1c4lly_r3duc1bl3}
 ```
 
-
+<br>
 
 ## Exploitation 2: Abusing Homomorphisms
 
@@ -398,7 +399,9 @@ $$ E(m_1)^{m_2} = \left( g^{m_1} \cdot {r_1}^N \right)^{m_2} = g^{m_1 m_2} \cdot
 
 Another homomorphic property! _Again, the same applies here as before._ Now let's apply what we just learned to this challenge.
 
-**Stage 1**
+<br>
+
+#### Stage 1
 
 Let's start by considering the encryption function for this stage once more,
 
@@ -421,7 +424,9 @@ N1, G1, P1 = s_params()
 s_submit( (s_decrypt( pow(P1, pow(2, 0x10001, N1), N1*N1) ) * inverse(2, N1)) % N1 )
 ```
 
-**Stage 2**
+<br>
+
+#### Stage 2
 
 For the second stage, the encryption is now done with Paillier first and RSA second,
 
@@ -439,7 +444,9 @@ N2, G2, P2 = s_params()
 s_submit( (s_decrypt( (P2 * pow(pow(G2, 2, N2*N2), 0x10001, N2*N2)) % (N2*N2) ) - 2) % N2 )
 ```
 
-**Challenge**
+<br>
+
+#### Challenge
 
 Now all that is left is our communication with the server. Of course one could do all of the above manually since there are only two interactions required (aside from submitting the passwords) with the server. I have used a standard pwntools Python script which can be found below in the full solve script.
 
@@ -449,8 +456,9 @@ Ta-da!
 flag{s4dly_f0r_y0u_j41l_t1m3_1s_n0t_h0m0m0rph1c4lly_r3duc1bl3}
 ```
 
+<br>
 
-**Full Exploit Script**
+#### Full Exploit Script
 
 ```py
 #!/usr/bin/env python3
