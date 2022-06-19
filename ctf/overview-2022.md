@@ -15,7 +15,7 @@ Check out write-ups by my teammates on [K3RN3L4RMY.com](http://k3rn3l4rmy.com/wr
 
 ### *HackPack CTF 2022*
 -----
-The [challenges](./my-challs.html) I wrote:
+The [challenges](./my-challs.html) I wrote as guest author:
 - [Repeating Offense](https://www.sebven.com/ctf/2022/04/12/HackPackCTF2022-Repeating-Offense.html) - Crypto 443 pts (20 solves)
     &#8250; Homomorphism attack on layered RSA + Paillier scheme(s)
 - [P(ai)^3](https://www.sebven.com/ctf/2022/04/12/HackPackCTF2022-Paiaiai.html) - Crypto 469 pts (15 solves)
@@ -25,9 +25,17 @@ The [challenges](./my-challs.html) I wrote:
 
 ### *UMassCTF 2022*
 -----
-The [challenges](./my-challs.html) I wrote:
+The [challenges](./my-challs.html) I wrote as guest author:
 - [HatMash](https://www.sebven.com/ctf/2022/04/21/UMassCTF2022-HatMash.html) - Crypto 500 pts (1 solve)
     &#8250; Hashing algorithm based on linear algebra
+- [Tomb of Tutanflagun]() - Crypto 500 pts (3 solves)
+    &#8250; Multi-keyed Hill cipher with different key sizes
+- [Order of the Eight Apollonii]() - Crypto 500 pts (1 solve)
+    &#8250; Secret sharing scheme based on the Apollonius problem
+- [MTRSASS]() - Crypto 500 pts (6 solves)
+    &#8250; Merkle tree signature scheme based on RSA
+- [FastCrypt]() - Crypto 495 pts (24 solves)
+    &#8250; Key-dependent sub-perm network leads to timing attack
 
 
 

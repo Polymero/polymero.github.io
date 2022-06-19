@@ -27,44 +27,74 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 <h2>Overview of Published Challenges</h2>
 
-<h3>Crypto</h3>
+<br>
 
-| Challenge | Framework | Published | Primitive | Type | Diff | Solves |
-| --------- | --------- | --------- | --------- | ---- | ---- | ------ |
-| [Twizzty Buzzinezz](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Twizzty-Buzzinezz.html) | Honeycomb | K3RN3LCTF 2021 | XOR | TOY | 1 | 116 |
-| [Non-Square Freedom 1](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) | Prime Crimes | K3RN3LCTF 2021 | RSA | TOY | 1 | 21 |
-| [1-800-758-6237](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-1-800-758-6237.html) | 16-byte Nightmares | K3RN3LCTF 2021 | AES-CTR | IMP | 2 | 28 |
-| [Poly-Proof](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Poly-Proof.html) | Zero-Effort-Proof | K3RN3LCTF 2021 | PCS | TOY | 2 | 11 |
-| [Poly Expo go BRRRRR](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Poly-Expo-go-BRRRRR.html) | Prime Crimes | K3RN3LCTF 2021 | RSA | TOY | 3 | 9 |
-| [Cozzmic Dizzcovery](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Cozzmic-Dizzcovery.html) | Honeycomb | K3RN3LCTF 2021 | XOR | PZL | 4 | 3 |
-| [Non-Square Freedom 2](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) | Prime Crimes | K3RN3LCTF 2021 | RSA | TOY | 4 | 11 |
-| [Ain't no Mountain High Enough](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Aint-no-Mountain-High_Enough.html) | Mountain Cipher | K3RN3LCTF 2021 | Hill Cipher | TOY | 5 | 1 |
-| [Objection!](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Objection.html) | Prime Crimes | K3RN3LCTF 2021 | DSA | IMP | 6 | 2 |
-| [Tick Tock](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Tick-Tock.html) | Erratic Elliptics | K3RN3LCTF 2021 | Group Theory | TOY | 6 | 6 |
-| [Beecryption](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Beecryption.html) | Honeycomb | K3RN3LCTF 2021 | Linear | TOY | 7 | 2 |
-| [Shrine of the Sweating Buddha](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Shrine-of-the-Sweating-Buddha.html) | Sweating Buddha | K3RN3LCTF 2021 | Paillier | TOY | 8 | 0 |
-| **Mowhock** | Submit to Chaos | K3RN3LCTF 2021 | Logistic Map | TOY | 8 | 0 |
-| [Game of Secrets](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Game-of-Secrets.html) | Cellular Mania | K3RN3LCTF 2021 | Game of Life | TOY | 8 | 2 |
-| [Total Encryption](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Total-Encryption.html) | Remote Secure Armoury | K3RN3LCTF 2021 | RSA | IMP | 9 | 0 |
-| [HADIOR](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-HADIOR.html) | Spinning my Web | K3RN3LCTF 2021 | DSA | TOY | 9 | 3 |
+### *n00bzCTF 2022*
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| **RSA-OOPS** | Crypto | Remote Secure Armoury | TOY | RSA | 4 | ? |
+| **Hadis Paide** | Crypto | Prime Crimes | IMP | Paillier | 2 | ? |
 {:.custom-table}
+
+<br>
+
+### *HackPack CTF 2022*
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| [Repeating Offense](https://www.sebven.com/ctf/2022/04/12/HackPackCTF2022-Repeating-Offense.html) | Crypto | Prime Crimes | IMP | RSA + Paillier | 4 | 20 |
+| [P(ai)^3](https://www.sebven.com/ctf/2022/04/12/HackPackCTF2022-Paiaiai.html) | Crypto | Painful Paillier | TOY | Paillier | 6 | 15 |
+{:.custom-table}
+
+<br>
+
+### *UMassCTF 2022*
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| **FastCrypt** | Crypto | Mind your Flanks | IMP | Sub-perm | 7 | 24 |
+| **MTRSASS** | Crypto | Remote Secure Armoury | TOY | MSS + RSA | 6 | 6 |
+| **Tomb of Tutanflagun** | Crypto | Mountain Cipher | TOY | Hill Cipher | 8 | 3 |
+| [HatMash](https://www.sebven.com/ctf/2022/04/21/UMassCTF2022-HatMash.html) | Crypto | Matrix Mania | TOY | Hash | 4 | 1 |
+| **Order of the Eight Apollonii** | Crypto | Circles of Eight | TOY | Geometric SSS | 5 | 1 |
+{:.custom-table}
+
+<br>
+
+### *K3RN3LCTF 2021*
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| [Twizzty Buzzinezz](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Twizzty-Buzzinezz.html) | Crypto | Honeycomb | TOY | XOR | 1 | 116 |
+| [1-800-758-6237](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-1-800-758-6237.html) | Crypto | 16-byte Nightmares | IMP | AES-CTR | 2 | 28 |
+| [Non-Square Freedom 1](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) | Crypto | Prime Crimes | TOY | RSA | 1 | 21 |
+| [WannaSwirl](https://github.com/Kasimir123/CTFWriteUps/tree/main/2021-11-K3RN3LCTF/WannaSwirl) (Co-Author) | Rev | WannaSwirl | REV | Malware | 7 | 19* |
+| [Non-Square Freedom 2](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Non-Square-Freedom.html) | Crypto | Prime Crimes | TOY | RSA | 4 | 11 |
+| [Poly-Proof](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Poly-Proof.html) | Crypto | Zero-Effort-Proof | TOY | PCS | 2 | 11 |
+| [Poly Expo go BRRRRR](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Poly-Expo-go-BRRRRR.html) | Crypto | Prime Crimes | TOY | RSA | 3 | 9 |
+| [Tick Tock](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Tick-Tock.html) | Crypto | Erratic Elliptics | TOY | Group Theory | 6 | 6 |
+| **3Dangerous Commute** | Misc | Hyperspatial Engineering | PZL | Maze | 5 | 5 |
+| [Cozzmic Dizzcovery](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Cozzmic-Dizzcovery.html) | Crypto | Honeycomb | PZL | XOR | 4 | 3 |
+| [HADIOR](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-HADIOR.html) | Crypto | Spinning my Web | TOY | DSA | 9 | 3* |
+| [lightningrod](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-lightningrod.html) | Rev | Superweapons | REV | XOR | 4 | 3 |
+| [Beecryption](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-Beecryption.html) | Crypto | Honeycomb | TOY | Affine | 7 | 2 |
+| [Game of Secrets](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Game-of-Secrets.html) | Crypto | Cellular Mania | TOY | Game of Life | 8 | 2 |
+| [Objection!](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Objection.html) | Crypto | Prime Crimes | IMP | DSA | 6 | 2 |
+| [Ain't no Mountain High Enough](https://www.sebven.com/ctf/2021/11/14/K3RN3LCTF2021-Aint-no-Mountain-High_Enough.html) | Crypto | Mountain Cipher | TOY | Hill Cipher | 5 | 1 |
+| **Mowhock** | Crypto | Submit to Chaos | TOY | Logistic Map | 8 | 0 |
+| [Shrine of the Sweating Buddha](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Shrine-of-the-Sweating-Buddha.html) | Crypto | Sweating Buddha | TOY | Paillier | 8 | 0 |
+| [Total Encryption](https://www.sebven.com/ctf/2021/12/23/K3RN3LCTF2021-Total-Encryption.html) | Crypto | Remote Secure Armoury | IMP | RSA | 9 | 0 |
+| [WannaSwirl Fixed](https://github.com/Kasimir123/CTFWriteUps/tree/main/2021-11-K3RN3LCTF/WannaSwril-Fixed) (Co-Author) | Rev | WannaSwirl | REV | Malware | 7 | 0 |
+{:.custom-table}
+
+<br>
 
 And more, just waiting to be published ~ !
-
-<h3>Reverse Engineering</h3>
-
-| Challenge | Framework | Published | Primitive | Type | Diff | Solves |
-| --------- | --------- | --------- | --------- | ---- | ---- | ------ |
-| [lightningrod](https://www.sebven.com/ctf/2021/11/16/K3RN3LCTF2021-lightningrod.html) | Superweapons | K3RN3LCTF 2021 | XOR | REV | 4 | 3 |
-| [WannaSwirl](https://github.com/Kasimir123/CTFWriteUps/tree/main/2021-11-K3RN3LCTF/WannaSwirl) (Co-Author) | WannaSwirl | K3RN3LCTF 2021 | Malware | REV | 7 | ? |
-{:.custom-table}
-
-<h3>Misc</h3>
-
-| Challenge | Framework | Published | Primitive | Type | Diff | Solves |
-| --------- | --------- | --------- | --------- | ---- | ---- | ------ |
-| **3Dangerous Commute** | Hyperspatial Engineering | K3RN3LCTF 2021 | Maze | PZL | 5 | 5 |
-{:.custom-table}
 <br><br>
 
 
