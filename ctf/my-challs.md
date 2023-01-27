@@ -29,7 +29,57 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 <br>
 
-### *n00bzCTF 2022*
+
+<div style="margin: -.75em 0px -1.65em -5em; font-size: 2em; font-weight: bold;">2023</div>
+
+
+
+<h3>idekctf 2022*  <a href="https://ctftime.org/event/1839" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| **Cleithrophobia** | Crypto | 16-byte Nightmares | TOY | AES | 3 | 58 |
+| **Megalophobia** | Crypto | Remote Secure Armoury | IMP | RSA | 6 | 17 |
+| [Psychophobia](https://www.sebven.com/ctf/2023/01/16/idekCTF2023-Psychophobia.html) | Crypto | Prime Crimes | IMP | ECDSA | 8 | 11 |
+{:.custom-table}
+
+<br>
+<br>
+
+
+
+<div style="margin: -.75em 0px -1.65em -5em; font-size: 2em; font-weight: bold;">2022</div>
+
+
+
+<h3>BlackHat MEA CTF 2022 Finals  <a href="https://ctftime.org/event/1734" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| **LWEKE** | Crypto | ... | IMP | LWE | 8 | ? |
+| **Beastly Vault** | Crypto | ... | IMP | AES | 9 | ? |
+| **Webbed*** | Crypto | ... | IMP | AES | 3 | ? |
+| **ECPC** | Crypto | ... | TOY | ECDSA | 4 | ? |
+| **Ursa Major** | Crypto | Remote Secure Armoury | TOY | RSA | 5 | ? |
+| **Bob went Shopping** | Crypto | ... | IMP | E2EE | 6 | ? |
+{:.custom-table}
+
+<br>
+
+<h3>BlackHat MEA CTF 2022 Qualifiers  <a href="https://ctftime.org/event/1733" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| **Ursa Minor** | Crypto | Remote Secure Armoury | TOY | RSA | 2 | ? |
+| **Nothing Up My S-box** | Crypto | ... | TOY | SPN | 5 | ? |
+{:.custom-table}
+
+<br>
+
+<h3>n00bzCTF 2022  <a href="https://ctftime.org/event/1657" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
 -----
 
 | Challenge | Category | Framework | Type | Primitive | Diff | Solves |
@@ -40,7 +90,7 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 <br>
 
-### *HackPack CTF 2022*
+<h3>HackPack CTF 2022  <a href="https://ctftime.org/event/1620" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
 -----
 
 | Challenge | Category | Framework | Type | Primitive | Diff | Solves |
@@ -51,7 +101,7 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 <br>
 
-### *UMassCTF 2022*
+<h3>UMassCTF 2022  <a href="https://ctftime.org/event/1561" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
 -----
 
 | Challenge | Category | Framework | Type | Primitive | Diff | Solves |
@@ -64,8 +114,15 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 {:.custom-table}
 
 <br>
+<br>
 
-### *K3RN3LCTF 2021*
+
+
+<div style="margin: -.75em 0px -1.65em -5em; font-size: 2em; font-weight: bold;">2021</div>
+
+
+
+<h3>K3RN3LCTF 2021  <a href="https://ctftime.org/event/1438" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
 -----
 
 | Challenge | Category | Framework | Type | Primitive | Diff | Solves |

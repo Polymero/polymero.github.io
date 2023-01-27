@@ -6,7 +6,7 @@ hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---
 
-**Cryptography -- ??? -- Chall author: Polymero (me)**
+**Cryptography -- 495 points (11 solves) -- Chall author: Polymero (me)**
 
 _"WANTED: CRYPTO PSYCHIC FOR SINGLE TIME HIRE! (URGENT)<br>
 My signatures are all broken and I need somebody to magically fix them ASAP!"_
