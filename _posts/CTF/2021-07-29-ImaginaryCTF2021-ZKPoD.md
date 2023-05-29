@@ -1,7 +1,7 @@
 ---
 title: ImaginaryCTF 2021 - ZKPoD
 category: CTF
-tags: parity leak RSA LSB-oracle crypto
+tags: RSA LSB-oracle crypto
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 title: ImaginaryCTF 2021 - Mazed
 category: CTF
-tags: misc maze scripting
+tags: misc scripting
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 title: WORMCON 0x01 2021 - Fake Encryption
 category: CTF
-tags: crypto DES ECB
+tags: crypto DES
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

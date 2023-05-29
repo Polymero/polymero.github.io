@@ -1,7 +1,7 @@
 ---
 title: K3RN3LCTF 2021 - Tick Tock
 category: CTF
-tags: crypto number-theory DLP
+tags: crypto DLP
 hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---

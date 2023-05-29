@@ -1,7 +1,7 @@
 ---
 title: K3RN3LCTF 2021 - Objection!
 category: CTF
-tags: crypto DSA forgery
+tags: crypto DSA signature-forgery
 hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---

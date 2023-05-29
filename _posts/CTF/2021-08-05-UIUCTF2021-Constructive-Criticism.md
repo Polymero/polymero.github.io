@@ -1,7 +1,7 @@
 ---
 title: UIUCTF 2021 - Constructive Criticism
 category: CTF
-tags: misc data-analysis audio
+tags: misc data-analysis
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

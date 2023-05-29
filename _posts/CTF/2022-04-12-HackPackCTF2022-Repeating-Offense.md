@@ -1,7 +1,7 @@
 ---
 title: HackPack CTF 2022 - Repeating Offense
 category: CTF
-tags: crypto RSA Paillier homomorphism
+tags: crypto RSA Paillier
 hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---

@@ -1,7 +1,7 @@
 ---
 title: San Diego CTF 2021 - Desmos Pro
 category: CTF
-tags: math rev
+tags: rev
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

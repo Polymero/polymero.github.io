@@ -1,7 +1,7 @@
 ---
 title: NetOn CTF 2021 - PawN PawN
 category: CTF
-tags: crypto
+tags: misc
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

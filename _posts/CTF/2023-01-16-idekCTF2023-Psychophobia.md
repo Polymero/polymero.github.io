@@ -1,7 +1,7 @@
 ---
 title: idek CTF 2022* - Psychophobia
 category: CTF
-tags: crypto 
+tags: crypto ECDSA
 hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---

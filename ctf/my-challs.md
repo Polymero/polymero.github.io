@@ -34,6 +34,15 @@ In need of Crypto challenges for your CTF? [Get in touch](https://www.sebven.com
 
 
 
+<h3>UMASS CTF 2023 <a href="https://ctftime.org/event/1912" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
+-----
+
+| Challenge | Category | Framework | Type | Primitive | Diff | Solves |
+| --------- | -------- | --------- | ---- | --------- | ---- | ------ |
+| **Wrath of the Sweating Buddha** | Crypto | Sweating Buddha | TOY | Paillier | 5 | 6 |
+
+
+
 <h3>idekctf 2022*  <a href="https://ctftime.org/event/1839" target="_blank" style="font-size: 10px">[CTFtime]</a></h3>
 -----
 

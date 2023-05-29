@@ -1,7 +1,7 @@
 ---
 title: NetOn CTF 2021 - Step by step
 category: CTF
-tags: web leak
+tags: web
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

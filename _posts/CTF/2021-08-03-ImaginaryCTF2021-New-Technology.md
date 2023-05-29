@@ -1,7 +1,7 @@
 ---
 title: ImaginaryCTF 2021 - New Technology
 category: CTF
-tags: crypto number-theory lucky
+tags: crypto number-theory
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

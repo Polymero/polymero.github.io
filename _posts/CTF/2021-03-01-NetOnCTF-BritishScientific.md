@@ -1,7 +1,7 @@
 ---
 title: NetOn CTF 2021 - BritishScientific
 category: CTF
-tags: playfair crypto
+tags: Playfair crypto
 hidden_tags: write-up
 excerpt_separator: <!--more-->
 ---

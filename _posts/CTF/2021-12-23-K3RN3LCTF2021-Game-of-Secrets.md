@@ -1,7 +1,7 @@
 ---
 title: K3RN3LCTF 2021 - Game of Secrets
 category: CTF
-tags: crypto cellular-automata leak
+tags: crypto cellular-automata
 hidden_tags: my-challenge
 excerpt_separator: <!--more-->
 ---
