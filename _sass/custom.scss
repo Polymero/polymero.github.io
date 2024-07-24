@@ -1,7 +1,11 @@
 /* start custom scss snippet */
 
+.custom-table {
+   width: 100%;
+}
+
 .custom-table th, .custom-table td {
-   padding: 1px 6px;
+   padding: 1px 8px;
    text-align: center;
 }
 

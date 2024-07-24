@@ -1,21 +1,16 @@
 ---
 layout: page
-sidebar:
-  nav: sidebar-ctf
-aside:
-  toc: False
 ---
 
-An overview of CTFs I participated in during 2021 can be found [here](./overview-2021.html).
-
-Check out the [Archive](/archive.html) to filter by tags!
+Check out the [Archive](/archive.html) to filter writeups by tags!
 
 <br>
-
 
 ## What is this CTF category?
 
 Most of modern cryptography deals with the **encoding**, **encryption**, and **authentication** of data traffic. Think of web browsing, bank transfers, communication applications, etc. Our first goal is to have our data encrypted such that only those with the appropriate keys can decrypt it. Secondly, we need to find a way for us to be sure an encrypted message indeed came from whom we think it came from and vice versa. As you can imagine, this proves to be easier said than done. During CTFs, you will be confronted with insecure algorithms proving exactly this. You will have to investigate and make sense of any provided source code, look for potential vulnerabilities, and finally exploit the algorithm to work your way to the flag.
+
+<br>
 
 ## What knowledge do I need _right now_ to get started?
 
@@ -30,13 +25,15 @@ What about cryptographic knowledge? There are many exotic cryptosystems and even
 
 The best way to hone your cryptography skills is through practice! Try your luck in beginner-focused CTFs, look for archived challenges on [CTFtime](https://ctftime.org), or check out [CryptoHack](https://cryptohack.org).
 
+<br>
+
 ## What tools do I need to be successful?
 
 Pen, paper, and Python is really all you need, although some experience with [Sage](https://doc.sagemath.org/html/en/tutorial/introduction.html) (a more math-focused extension of Python) might prove useful. Usually all attacks and exploits can be written from scratch well within the duration of the CTF. No external tools are required, although the use of existing third-party scripts is generally allowed.
 
 <br>
 
-<h2>Recent Write-ups</h2>
+<!-- <h2>Recent Write-ups</h2>
 
 <ul>
   {% for post in site.posts limit:4 %}
@@ -67,5 +64,5 @@ Pen, paper, and Python is really all you need, although some experience with [Sa
     No challenges publicly available yet. <br>
     K3RN3LCTF 2021 expected to be online on the 29th and 30th of November!
   {% endunless %}
-</ul>
+</ul> -->
 

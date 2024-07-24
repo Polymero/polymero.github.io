@@ -1,9 +1,5 @@
 ---
 layout: page
-sidebar:
-  nav: sidebar-home
-aside:
-  toc: False
 ---
 
 <div class="grid-container">
@@ -11,13 +7,12 @@ aside:
 
     <div class="cell cell--4">
 
-      <a href="ast/about.html">
+      <a href="https://learn-cyber.net/" target="_blank">
         <div class="card card--clickable" style="background-color:#1d1d1d">
          <div class="card__content" style="text-align:center">
-            <div style="margin-top:40px;margin-bottom:20px">
-                <i class="fas fa-rocket fa-7x"></i>
-                <br><br>
-                <h4>Astrophysics</h4>
+            <div style="margin-top:5px;margin-bottom:20px">
+                <img src="assets/duckie.png" height="200px">
+                <h3 style="margin-top:-10px">LearnCyber</h3>
             </div>
           </div>
        </div>
@@ -30,10 +25,9 @@ aside:
       <a href="ctf/about.html">
         <div class="card card--clickable" style="background-color:#1d1d1d">
           <div class="card__content" style="text-align:center">
-            <div style="margin-top:40px;margin-bottom:20px">
-                <i class="fas fa-flag fa-7x"></i>
-                <br><br>
-              <h4>CTF - Cryptography</h4>
+            <div style="margin-top:5px;margin-bottom:20px">
+              <img src="assets/ctfcrypto.png" height="200px">
+              <h3 style="margin-top:-10px">Cryptography</h3>
             </div>
          </div>
        </div>
@@ -43,13 +37,12 @@ aside:
     
     <div class="cell cell--4">
 
-      <a href="lin/about.html">
+      <a href="conlanging/about.html">
         <div class="card card--clickable" style="background-color:#1d1d1d">
           <div class="card__content" style="text-align:center">
-            <div style="margin-top:40px;margin-bottom:20px">
-              <i class="fas fa-scroll fa-7x"></i>
-              <br><br>
-              <h4>Linguistics</h4>
+            <div style="margin-top:5px;margin-bottom:20px">
+              <img src="assets/linguistics.png" height="200px">
+              <h3 style="margin-top:-10px">Conlanging</h3>
             </div>
          </div>
         </div>
@@ -60,6 +53,16 @@ aside:
 
 
     <div class="cell cell--4">
+
+      <a href="https://learn-cyber.net/collection/f2ce92a4-59f3-4292-9b1e-e96441e8c0bf" target="_blank">
+        <div class="card card--clickable" style="background-color:#1d1d1d;margin-top:6px">
+          <div class="card__content" style="text-align:center">
+            <div style="margin-top:-15px;margin-bottom:-12px">
+              <h5>Essential Mathematics</h5>
+            </div>
+         </div>
+        </div>
+      </a>
 
     </div>
 
@@ -87,6 +90,16 @@ aside:
 
     <div class="cell cell--4">
 
+      <a href="https://learn-cyber.net/collection/9c616bd9-437e-4da1-a339-e28675f075b4" target="_blank">
+        <div class="card card--clickable" style="background-color:#1d1d1d;margin-top:6px">
+          <div class="card__content" style="text-align:center">
+            <div style="margin-top:-15px;margin-bottom:-12px">
+              <h5>Introduction to Cryptography</h5>
+            </div>
+         </div>
+        </div>
+      </a>
+
     </div>
 
 
@@ -96,7 +109,7 @@ aside:
         <div class="card card--clickable" style="background-color:#1d1d1d;margin-top:6px">
           <div class="card__content" style="text-align:center">
             <div style="margin-top:-15px;margin-bottom:-12px">
-              <h5>Overview 2022</h5>
+              <h5>Write-ups 2022</h5>
             </div>
          </div>
         </div>
@@ -122,7 +135,7 @@ aside:
         <div class="card card--clickable" style="background-color:#1d1d1d;margin-top:6px">
           <div class="card__content" style="text-align:center">
             <div style="margin-top:-15px;margin-bottom:-12px">
-              <h5>Overview 2021</h5>
+              <h5>Write-ups 2021</h5>
             </div>
          </div>
         </div>
@@ -140,15 +153,30 @@ aside:
   </div>
 </div>
 
-<br>
+<br><br><br>
 
 <h2>Recent Posts</h2>
 
-<ul>
-  {% for post in site.posts limit:8 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+<div class="grid-container">
+  <div class="grid">
+
+    {% for post in site.posts limit:8 %}
+      <div class="cell cell--12">
+
+          <div class="card" style="background-color:#1d1d1d;margin-top:12px">
+            <div class="card__content">
+
+              <a href="{{ post.url }}">
+                  <span style="font-size: large;"><b>&#183;</b> {{ post.title }}</span>
+              </a>
+
+              {{ post.excerpt }}
+
+            </div>
+          </div>
+
+      </div>
+    {% endfor %}
+
+  </div>
+</div>

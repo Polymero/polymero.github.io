@@ -2,10 +2,6 @@
 layout: page
 title: About Me
 key: page-about
-sidebar:
-  nav: sidebar-home
-aside:
-  toc: False
 ---
 
 
@@ -30,4 +26,4 @@ Playing CTFs with [K3RN3L4RMY](https://www.k3rn3l4rmy.com/), with focus on crypt
 If you have any questions, or are just up for a chat, feel free to contact me! **(^w^)/**
 
 - **E-mail** - sebastiaanvenendaal (at) gmail.com
-- **Discord** - Polymero #7483
+- **Discord** - polymero

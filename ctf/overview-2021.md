@@ -1,7 +1,5 @@
 ---
 layout: page
-sidebar:
-  nav: sidebar-ctf
 aside:
   toc: True
 title: Overview 2021
